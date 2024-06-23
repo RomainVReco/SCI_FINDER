@@ -16,6 +16,9 @@ class Sci
 
     #[ORM\Column(length: 60)]
     private ?string $idSci = null;
+    
+    #[ORM\Column(length: 30)]
+    private ?string $siren = null;
 
     #[ORM\Column(type: Types::DATE_MUTABLE)]
     private ?\DateTimeInterface $dateCreation = null;
@@ -55,9 +58,6 @@ class Sci
 
     #[ORM\Column(nullable: true)]
     private ?int $positionInJson = null;
-
-    #[ORM\Column]
-    private ?int $siren = null;
 
     public function getId(): ?int
     {
@@ -237,12 +237,12 @@ class Sci
         return $this;
     }
 
-    public function getSiren(): ?int
+    public function getSiren(): ?string
     {
         return $this->siren;
     }
 
-    public function setSiren(int $siren): static
+    public function setSiren(string $siren): static
     {
         $this->siren = $siren;
 
