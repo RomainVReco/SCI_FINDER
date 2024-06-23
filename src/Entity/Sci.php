@@ -56,6 +56,9 @@ class Sci
     #[ORM\Column(nullable: true)]
     private ?int $positionInJson = null;
 
+    #[ORM\Column]
+    private ?int $siren = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -230,6 +233,18 @@ class Sci
     public function setPositionInJson(?int $positionInJson): static
     {
         $this->positionInJson = $positionInJson;
+
+        return $this;
+    }
+
+    public function getSiren(): ?int
+    {
+        return $this->siren;
+    }
+
+    public function setSiren(int $siren): static
+    {
+        $this->siren = $siren;
 
         return $this;
     }
