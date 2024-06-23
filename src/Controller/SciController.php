@@ -69,6 +69,4 @@ class SciController extends AbstractController
 
         return new JsonResponse($jsonSCI, Response::HTTP_CREATED, ["Location" => $location], true);
      }
-
-    
 }
