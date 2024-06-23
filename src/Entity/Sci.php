@@ -15,7 +15,7 @@ class Sci
     private ?int $id = null;
 
     #[ORM\Column(length: 60)]
-    private ?string $Id = null;
+    private ?string $IdSci = null;
 
     #[ORM\Column(type: Types::DATE_MUTABLE)]
     private ?\DateTimeInterface $dateCreation = null;
