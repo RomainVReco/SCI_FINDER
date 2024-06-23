@@ -3,21 +3,34 @@
 namespace App\Controller;
 
 use App\Repository\SciRepository;
+use App\Entity\Sci;
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Serializer\SerializerInterface;
+use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 class SciController extends AbstractController
 {
-    #[Route('/api/sci', name:'sci', methods:['GET'])]
-    public function getAllSCI(SciRepository $sciRepo, SerializerInterface $serializer): JsonResponse
-    {
-        $sciList = $sciRepo->findAll();
 
-        $jsonSciList = $serializer->serialize($sciList, 'json');
+    private SciRepository $sciRepo;
+    private SerializerInterface $serializer;
+
+    public function __construct(SciRepository $sciRepo, SerializerInterface $serializer) 
+    {
+        $this->$sciRepo = $sciRepo;
+        $this->$serializer = $serializer;
+    }
+
+    #[Route('/api/sci', name:'sci', methods:['GET'])]
+    public function getAllSCI(): JsonResponse
+    {
+        $sciList = $this->sciRepo->findAll();
+        $jsonSciList = $this->serializer->serialize($sciList, 'json');
         return new JsonResponse($jsonSciList, Response::HTTP_OK, [], true);
     }
 
@@ -42,6 +55,19 @@ class SciController extends AbstractController
         }
         return new JsonResponse(null, Response::HTTP_NOT_FOUND);
     }
+
+    // #[Route('/api/sci', name:'sci', methods:['POST'])]
+    // public function createSCI (Request $request, SerializerInterface $serializer, EntityManagerInterface $em, 
+    // UrlGeneratorInterface $urlGenerator, ValidatorInterface $validator): JsonResponse
+    //  {
+    //     $sci = $serializer->deserialize($request->getContent(), Sci::class, 'json');
+    //     $em->persist($sci);
+    //     $em->flush();
+
+    //     $jsonSCI = $sci ;
+
+
+    //  }
 
     
 }
