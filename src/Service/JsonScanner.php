@@ -13,7 +13,7 @@ $data = file_get_contents($file);
 $obj = json_decode($data);
 
 // Mettre la condition  pour vérifier la forme juridique
-
+print_r(count($obj));
 for ($i = 0; $i<count($obj); $i++) {
 // for ($i = 0; $i<3; $i++) {
     if (!empty($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique))
@@ -24,7 +24,7 @@ for ($i = 0; $i<count($obj); $i++) {
                 $sci = new Sci();
                 $sci->setIdSCI($obj[$i]->id);
                 $sci->setSiren($obj[$i]->formality->siren);
-                $sci->setDateCreation(new DateTime($obj[$i]->formality->content->natureCreation->dateCreation));
+                // $sci->setDateCreation(new DateTime($obj[$i]->formality->content->natureCreation->dateCreation));
                 // $sci->setEtablieEnFrance($obj[$i]->formality->content->natureCreation->etablieEnFrance);
                 // $sci->setSalarieEnFrance($obj[$i]->formality->content->natureCreation->salarieEnFrance);
                 // $sci->setFormeJuridique($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique);

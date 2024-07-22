@@ -1,0 +1,4445 @@
+[
+    {
+    "updatedAt": "2023-06-15T10:03:27+02:00",
+    "id": "648ac5cf0fc184c39d0450b5",
+    "formality": {
+        "siren": "001452655",
+        "content": {
+            "natureCreation": {
+                "dateCreation": "2022-11-28",
+                "societeEtrangere": false,
+                "microEntreprise": false,
+                "etablieEnFrance": true,
+                "salarieEnFrance": true,
+                "relieeEntrepriseAgricole": false,
+                "entrepriseAgricole": false,
+                "eirl": false
+            },
+            "personneMorale": {
+                "identite": {
+                    "entreprise": {
+                        "siren": "001452655",
+                        "denomination": "SCI DE CHARBONNIER",
+                        "formeJuridique": "Société civile immobilière",
+                        "indicateurAssocieUnique": false,
+                        "dateImmat": "2022-11-28T00:00:00+01:00"
+                    },
+                    "description": {
+                        "objet": "Acquisition, administration et exploitation par bail de tout bien immobilier.",
+                        "duree": 99,
+                        "ess": true,
+                        "capitalVariable": false,
+                        "montantCapital": 2000.0,
+                        "deviseCapital": "EUR",
+                        "indicateurOrigineFusionScission": false,
+                        "indicateurAssocieUnique": false,
+                        "indicateurAssocieUniqueDirigeant": false
+                    }
+                },
+                "composition": {
+                    "pouvoirs": [
+                        {
+                            "typeDePersonne": "INDIVIDU",
+                            "individu": {
+                                "descriptionPersonne": {
+                                    "dateDeNaissance": "1976-02",
+                                    "role": "30",
+                                    "nom": "LIGOUT",
+                                    "prenoms": [
+                                        "ALEXANDRE",
+                                        "SERGE",
+                                        "ANDRE",
+                                        "AUGUSTE",
+                                        "JULES"
+                                    ],
+                                    "nationalite": "Française",
+                                    "situationMatrimoniale": "1"
+                                },
+                                "adresseDomicile": {
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA",
+                                    "codePostal": "97438",
+                                    "commune": "Sainte-Marie",
+                                    "codeInseeCommune": "97418"
+                                }
+                            },
+                            "indicateurActifAgricole": false
+                        },
+                        {
+                            "typeDePersonne": "INDIVIDU",
+                            "individu": {
+                                "descriptionPersonne": {
+                                    "dateDeNaissance": "1976-02",
+                                    "nom": "LIGOUT",
+                                    "prenoms": [
+                                        "ALEXANDRE",
+                                        "SERGE",
+                                        "ANDRE",
+                                        "AUGUSTE",
+                                        "JULES"
+                                    ],
+                                    "nationalite": "Française",
+                                    "situationMatrimoniale": "1"
+                                },
+                                "adresseDomicile": {
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA",
+                                    "codePostal": "97438",
+                                    "commune": "Sainte-Marie",
+                                    "codeInseeCommune": "97418"
+                                }
+                            },
+                            "indicateurActifAgricole": false
+                        },
+                        {
+                            "typeDePersonne": "INDIVIDU",
+                            "individu": {
+                                "descriptionPersonne": {
+                                    "dateDeNaissance": "1957-05",
+                                    "nom": "ROUBY",
+                                    "prenoms": [
+                                        "BRIGITTE",
+                                        "LUCIENNE"
+                                    ],
+                                    "nomUsage": "LOSA",
+                                    "nationalite": "Française",
+                                    "situationMatrimoniale": "1"
+                                },
+                                "adresseDomicile": {
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA",
+                                    "codePostal": "69100",
+                                    "commune": "Villeurbanne",
+                                    "codeInseeCommune": "69266"
+                                }
+                            },
+                            "indicateurActifAgricole": false
+                        },
+                        {
+                            "typeDePersonne": "INDIVIDU",
+                            "individu": {
+                                "descriptionPersonne": {
+                                    "dateDeNaissance": "1957-07",
+                                    "nom": "LOSA",
+                                    "prenoms": [
+                                        "SERGE"
+                                    ],
+                                    "nationalite": "Française",
+                                    "situationMatrimoniale": "1"
+                                },
+                                "adresseDomicile": {
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA",
+                                    "codePostal": "69100",
+                                    "commune": "Villeurbanne",
+                                    "codeInseeCommune": "69266"
+                                }
+                            },
+                            "indicateurActifAgricole": false
+                        }
+                    ]
+                }
+            },
+            "registreAnterieur": {
+                "raa": {
+                    "estPresent": false
+                },
+                "rnm": {
+                    "estPresent": false
+                },
+                "rncs": {
+                    "estPresent": true,
+                    "dateImmatriculation": "2022-11-28T00:00:00+01:00"
+                }
+            }
+        },
+        "diffusionCommerciale": true
+    },
+    "siren": "001452655"
+    },
+    {
+    "updatedAt": "2023-06-15T10:03:56+02:00",
+    "id": "648ac5ecb64afa78790da63b",
+    "formality": {
+        "siren": "058503202",
+        "content": {
+            "natureCreation": {
+                "dateCreation": "2009-08-05",
+                "societeEtrangere": false,
+                "microEntreprise": false,
+                "etablieEnFrance": true,
+                "salarieEnFrance": true,
+                "relieeEntrepriseAgricole": false,
+                "entrepriseAgricole": false,
+                "eirl": false
+            },
+            "personneMorale": {
+                "identite": {
+                    "entreprise": {
+                        "siren": "058503202",
+                        "denomination": "LES CHARDONS BLEUS",
+                        "formeJuridique": "Société civile immobilière",
+                        "indicateurAssocieUnique": false,
+                        "dateImmat": "2009-08-05T00:00:00+02:00"
+                    },
+                    "description": {
+                        "objet": "Propriété, administration et exploitation par bail, location ou autrement de diverses parts et portions de tous immeubles bâtis ou non bâtis.",
+                        "duree": 50,
+                        "ess": false,
+                        "capitalVariable": false,
+                        "montantCapital": 68602.05,
+                        "deviseCapital": "EUR",
+                        "indicateurOrigineFusionScission": false,
+                        "indicateurAssocieUnique": false,
+                        "indicateurAssocieUniqueDirigeant": false
+                    }
+                },
+                "composition": {
+                    "pouvoirs": [
+                        {
+                            "typeDePersonne": "INDIVIDU",
+                            "individu": {
+                                "descriptionPersonne": {
+                                    "dateDeNaissance": "1927-07",
+                                    "nom": "GAUNA",
+                                    "prenoms": [
+                                        "ARMAND",
+                                        "CHARLES"
+                                    ],
+                                    "nationalite": "Française",
+                                    "situationMatrimoniale": "1"
+                                },
+                                "adresseDomicile": {
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA",
+                                    "codePostal": "38240",
+                                    "commune": "Meylan",
+                                    "codeInseeCommune": "38229"
+                                }
+                            },
+                            "indicateurActifAgricole": false
+                        },
+                        {
+                            "typeDePersonne": "INDIVIDU",
+                            "individu": {
+                                "descriptionPersonne": {
+                                    "dateDeNaissance": "1927-07",
+                                    "role": "30",
+                                    "nom": "GAUNA",
+                                    "prenoms": [
+                                        "ARMAND",
+                                        "CHARLES"
+                                    ],
+                                    "nationalite": "Française",
+                                    "situationMatrimoniale": "1"
+                                },
+                                "adresseDomicile": {
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA",
+                                    "codePostal": "38240",
+                                    "commune": "Meylan",
+                                    "codeInseeCommune": "38229"
+                                }
+                            },
+                            "indicateurActifAgricole": false
+                        },
+                        {
+                            "typeDePersonne": "INDIVIDU",
+                            "individu": {
+                                "descriptionPersonne": {
+                                    "dateDeNaissance": "1959-08",
+                                    "nom": "GAUNA",
+                                    "prenoms": [
+                                        "JEAN-PAUL",
+                                        "MARIUS"
+                                    ],
+                                    "nationalite": "Française",
+                                    "situationMatrimoniale": "1"
+                                },
+                                "adresseDomicile": {
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA",
+                                    "codePostal": "24150",
+                                    "commune": "Mauzac-et-Grand-Castang",
+                                    "codeInseeCommune": "24260"
+                                }
+                            },
+                            "indicateurActifAgricole": false
+                        },
+                        {
+                            "typeDePersonne": "INDIVIDU",
+                            "individu": {
+                                "descriptionPersonne": {
+                                    "dateDeNaissance": "1953-11",
+                                    "nom": "GAUNA",
+                                    "prenoms": [
+                                        "JEAN-CLAUDE",
+                                        "ROMEO"
+                                    ],
+                                    "nationalite": "Française",
+                                    "situationMatrimoniale": "1"
+                                },
+                                "adresseDomicile": {
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA",
+                                    "codePostal": "69003",
+                                    "commune": "Lyon",
+                                    "codeInseeCommune": "69383"
+                                }
+                            },
+                            "indicateurActifAgricole": false
+                        },
+                        {
+                            "typeDePersonne": "INDIVIDU",
+                            "individu": {
+                                "descriptionPersonne": {
+                                    "dateDeNaissance": "1925-08",
+                                    "nom": "CASTELLI",
+                                    "prenoms": [
+                                        "DOLORES",
+                                        "SEVERINA",
+                                        "CERESINA"
+                                    ],
+                                    "nomUsage": "GAUNA",
+                                    "nationalite": "Française",
+                                    "situationMatrimoniale": "1"
+                                },
+                                "adresseDomicile": {
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA",
+                                    "codePostal": "38100",
+                                    "commune": "Grenoble",
+                                    "codeInseeCommune": "38185"
+                                }
+                            },
+                            "indicateurActifAgricole": false
+                        }
+                    ]
+                }
+            },
+            "registreAnterieur": {
+                "raa": {
+                    "estPresent": false
+                },
+                "rnm": {
+                    "estPresent": false
+                },
+                "rncs": {
+                    "estPresent": true,
+                    "dateImmatriculation": "2009-08-05T00:00:00+02:00"
+                }
+            }
+        },
+        "diffusionCommerciale": true
+    },
+    "siren": "058503202"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:47+02:00",
+        "id": "63dce7171c4c579f850721bd",
+        "formality": {
+            "siren": "060107109",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49370",
+                            "commune": "VAL D'ERDRE-AUXENCE",
+                            "codeInseeCommune": "49183",
+                            "typeVoie": "RUE",
+                            "voie": "DE L EGLISE"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010710900013",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49370",
+                            "commune": "VAL D'ERDRE-AUXENCE",
+                            "codeInseeCommune": "49183",
+                            "typeVoie": "RUE",
+                            "voie": "DE L EGLISE"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6211",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-12-31T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107109",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00013",
+                            "codeApe": "6211",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "VIVIEN",
+                                "prenoms": [
+                                    "LOUIS",
+                                    "ARMAND"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107109"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:47+02:00",
+        "id": "63dce7171c4c579f850721c3",
+        "formality": {
+            "siren": "060107372",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1968-02-05",
+                    "societeEtrangere": false,
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "etablieEnFrance": true,
+                    "salarieEnFrance": true,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "caracteristiques": {
+                            "ambulant": false
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49250",
+                            "commune": "BRISSAC LOIRE AUBANCE",
+                            "codeInseeCommune": "49050",
+                            "typeVoie": "PL",
+                            "voie": "GEORGES CLEMENCEAU",
+                            "caracteristiques": {
+                                "ambulant": false
+                            }
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010737200017",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1996-12-31"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49250",
+                            "commune": "BRISSAC LOIRE AUBANCE",
+                            "codeInseeCommune": "49050",
+                            "typeVoie": "PL",
+                            "voie": "GEORGES CLEMENCEAU"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1996-12-31",
+                                "dateFin": "1996-12-31",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "524L",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1997-01-16T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107372",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00017",
+                            "codeApe": "524L",
+                            "dateImmat": "1968-02-05T00:00:00+01:00",
+                            "origineId": "3",
+                            "effectifSalarie": "0",
+                            "effectifApprenti": "0",
+                            "dateDebutActiv": "1960-07-04"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "LARDEUX",
+                                "prenoms": [
+                                    "AUGUSTE",
+                                    "JULES",
+                                    "EMILE"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "registreAnterieur": {
+                    "raa": {
+                        "estPresent": false
+                    },
+                    "rnm": {
+                        "estPresent": true,
+                        "dateImmatriculation": "1968-02-05T00:00:00+01:00",
+                        "dateRadiation": "1997-01-16T00:00:00+01:00"
+                    },
+                    "rncs": {
+                        "estPresent": false
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107372"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:48+02:00",
+        "id": "63dce7181c4c579f850721d1",
+        "formality": {
+            "siren": "060107695",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1977-01-01",
+                    "societeEtrangere": false,
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "etablieEnFrance": true,
+                    "salarieEnFrance": true,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "caracteristiques": {
+                            "ambulant": false
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49000",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "EBLE",
+                            "numVoie": "140",
+                            "caracteristiques": {
+                                "ambulant": false
+                            }
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010769500011",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1989-06-30"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49000",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "EBLE",
+                            "numVoie": "140"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1989-06-30",
+                                "dateFin": "1989-06-30",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6243",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1989-06-30T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107695",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00011",
+                            "codeApe": "6243",
+                            "dateImmat": "1977-01-01T00:00:00+01:00",
+                            "origineId": "3",
+                            "effectifSalarie": "0",
+                            "effectifApprenti": "0",
+                            "dateDebutActiv": "1977-01-01"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "DAVID",
+                                "prenoms": [
+                                    "EMMANUEL",
+                                    "LOUIS",
+                                    "JOSEPH"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "registreAnterieur": {
+                    "raa": {
+                        "estPresent": false
+                    },
+                    "rnm": {
+                        "estPresent": true,
+                        "dateImmatriculation": "1977-01-01T00:00:00+01:00",
+                        "dateRadiation": "1989-06-30T00:00:00+02:00"
+                    },
+                    "rncs": {
+                        "estPresent": false
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107695"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:41+02:00",
+        "id": "63dce7181c4c579f850721e3",
+        "formality": {
+            "siren": "060107919",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49120",
+                            "commune": "CHEMILLE-EN-ANJOU",
+                            "codeInseeCommune": "49092",
+                            "typeVoie": "PL",
+                            "voie": "DU CHATEAU",
+                            "numVoie": "8"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010791900015",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49120",
+                            "commune": "CHEMILLE-EN-ANJOU",
+                            "codeInseeCommune": "49092",
+                            "typeVoie": "PL",
+                            "voie": "DU CHATEAU",
+                            "numVoie": "8"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6243",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1986-05-30T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107919",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00015",
+                            "codeApe": "6243",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "BOUCHER",
+                                "prenoms": [
+                                    "BERTRAND"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107919"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:44+02:00",
+        "id": "63dce71b1c4c579f85072231",
+        "formality": {
+            "siren": "060109360",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49100",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "BRESSIGNY"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010936000010",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1984-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49100",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "BRESSIGNY"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1984-12-25",
+                                "dateFin": "1984-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6211",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1984-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109360",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00010",
+                            "codeApe": "6211"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "RAGUIN",
+                                "prenoms": [
+                                    "GENEVIEVE",
+                                    "MME"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109360"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:45+02:00",
+        "id": "63dce71c1c4c579f85072247",
+        "formality": {
+            "siren": "060109717",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49330",
+                            "commune": "JUVARDEIL",
+                            "codeInseeCommune": "49170"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010971700011",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49330",
+                            "commune": "JUVARDEIL",
+                            "codeInseeCommune": "49170"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6448",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109717",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00011",
+                            "codeApe": "6448"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "RIVAU",
+                                "prenoms": [
+                                    "V"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109717"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:41+02:00",
+        "id": "63dce7191c4c579f850721ed",
+        "formality": {
+            "siren": "060108156",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49000",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "BLAISE PASCAL",
+                            "numVoie": "64"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010815600013",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1993-11-15"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49000",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "BLAISE PASCAL",
+                            "numVoie": "64"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1993-11-15",
+                                "dateFin": "1993-11-15",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "702C",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1993-11-15T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108156",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00013",
+                            "codeApe": "702C",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "MOTARD",
+                                "prenoms": [
+                                    "ANGELE"
+                                ],
+                                "nomUsage": "LANDAIS"
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108156"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:42+02:00",
+        "id": "63dce7191c4c579f850721f3",
+        "formality": {
+            "siren": "060108230",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49130",
+                            "commune": "SAINTE-GEMMES-SUR-LOIRE",
+                            "codeInseeCommune": "49278",
+                            "typeVoie": "RTE",
+                            "voie": "DE BOUCHEMAINE",
+                            "numVoie": "2"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010823000016",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49130",
+                            "commune": "SAINTE-GEMMES-SUR-LOIRE",
+                            "codeInseeCommune": "49278",
+                            "typeVoie": "RTE",
+                            "voie": "DE BOUCHEMAINE",
+                            "numVoie": "2"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6211",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1986-04-30T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108230",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00016",
+                            "codeApe": "6211",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "DENIS",
+                                "prenoms": [
+                                    "EUGENE"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108230"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:42+02:00",
+        "id": "63dce7191c4c579f850721f7",
+        "formality": {
+            "siren": "060108263",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49000",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010826300017",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1984-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49000",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1984-12-25",
+                                "dateFin": "1984-12-25",
+                                "descriptionDetaillee": "Activités de banque centrale",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6411",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1984-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108263",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00017",
+                            "codeApe": "6411"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "HAMON",
+                                "prenoms": [
+                                    "MARCEL"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108263"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:42+02:00",
+        "id": "63dce7191c4c579f850721ff",
+        "formality": {
+            "siren": "060108446",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-01-01",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49300",
+                            "commune": "CHOLET",
+                            "codeInseeCommune": "49099",
+                            "typeVoie": "RUE",
+                            "voie": "NATIONALE",
+                            "numVoie": "194"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010844600018",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1996-09-30"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49300",
+                            "commune": "CHOLET",
+                            "codeInseeCommune": "49099",
+                            "typeVoie": "RUE",
+                            "voie": "NATIONALE",
+                            "numVoie": "194"
+                        },
+                        "activites": [
+                            {
+                                "categoryCode": "07060101",
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1960-01-01",
+                                "dateFin": "1996-09-30",
+                                "categorisationActivite1": "07",
+                                "categorisationActivite2": "06",
+                                "categorisationActivite3": "01",
+                                "categorisationActivite4": "01",
+                                "descriptionDetaillee": "Location de terrains et d'autres biens immobiliers",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6820B",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "2012-10-10T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108446",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00018",
+                            "codeApe": "6820B",
+                            "dateImmat": "1960-01-01T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "LEHAY",
+                                "prenoms": [
+                                    "MARCEL"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108446"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:42+02:00",
+        "id": "63dce7191c4c579f85072207",
+        "formality": {
+            "siren": "060108545",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49140",
+                            "commune": "LOIRE-AUTHION",
+                            "codeInseeCommune": "49307"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010854500017",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49140",
+                            "commune": "LOIRE-AUTHION",
+                            "codeInseeCommune": "49307"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Nettoyage courant des bâtiments",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "8121",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-09-30T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108545",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00017",
+                            "codeApe": "8121",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "SIMON",
+                                "prenoms": [
+                                    "FRANCIS"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108545"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:43+02:00",
+        "id": "63dce71a1c4c579f85072217",
+        "formality": {
+            "siren": "060108883",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "44120",
+                            "commune": "VERTOU",
+                            "codeInseeCommune": "44215",
+                            "typeVoie": "RTE",
+                            "voie": "DE CLISSON"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010888300020",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1985-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "44120",
+                            "commune": "VERTOU",
+                            "codeInseeCommune": "44215",
+                            "typeVoie": "RTE",
+                            "voie": "DE CLISSON"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1985-12-25",
+                                "dateFin": "1985-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6601",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108883",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00020",
+                            "codeApe": "6601"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "LERAY",
+                                "prenoms": [
+                                    "GEORGES"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108883"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:43+02:00",
+        "id": "63dce71b1c4c579f85072227",
+        "formality": {
+            "siren": "060109162",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49300",
+                            "commune": "CHOLET",
+                            "codeInseeCommune": "49099",
+                            "typeVoie": "RUE",
+                            "voie": "DE LA CASSE"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010916200010",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1984-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49300",
+                            "commune": "CHOLET",
+                            "codeInseeCommune": "49099",
+                            "typeVoie": "RUE",
+                            "voie": "DE LA CASSE"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1984-12-25",
+                                "dateFin": "1984-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "4807",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1984-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109162",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00010",
+                            "codeApe": "4807"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "DRAPEAU",
+                                "prenoms": [
+                                    "AUGUSTE"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109162"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:43+02:00",
+        "id": "63dce71b1c4c579f85072229",
+        "formality": {
+            "siren": "060109196",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49600",
+                            "commune": "BEAUPREAU-EN-MAUGES",
+                            "codeInseeCommune": "49023",
+                            "voie": "LES PETITES PLACES"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010919600018",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1985-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49600",
+                            "commune": "BEAUPREAU-EN-MAUGES",
+                            "codeInseeCommune": "49023",
+                            "voie": "LES PETITES PLACES"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1985-12-25",
+                                "dateFin": "1985-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "0110",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109196",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00018",
+                            "codeApe": "0110"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "BOUTILLIER",
+                                "prenoms": [
+                                    "JOSEPH"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109196"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:44+02:00",
+        "id": "63dce71b1c4c579f8507222f",
+        "formality": {
+            "siren": "060109311",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49420",
+                            "commune": "CHAZE HENRY",
+                            "codeInseeCommune": "49088",
+                            "voie": "BOURG"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010931100013",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49420",
+                            "commune": "CHAZE HENRY",
+                            "codeInseeCommune": "49088",
+                            "voie": "BOURG"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6243",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1986-12-31T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109311",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00013",
+                            "codeApe": "6243",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "CHAPLAIS",
+                                "prenoms": [
+                                    "JEAN"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109311"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:44+02:00",
+        "id": "63dce71c1c4c579f85072243",
+        "formality": {
+            "siren": "060109626",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49120",
+                            "commune": "CHEMILLE-EN-ANJOU",
+                            "codeInseeCommune": "49092",
+                            "typeVoie": "RUE",
+                            "voie": "NATIONALE"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010962600014",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1985-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49120",
+                            "commune": "CHEMILLE-EN-ANJOU",
+                            "codeInseeCommune": "49092",
+                            "typeVoie": "RUE",
+                            "voie": "NATIONALE"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1985-12-25",
+                                "dateFin": "1985-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "5573",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109626",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00014",
+                            "codeApe": "5573"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "BOUSSEAU",
+                                "prenoms": [
+                                    "ARMAND"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109626"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:41+02:00",
+        "id": "63dce7181c4c579f850721e1",
+        "formality": {
+            "siren": "060107901",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49300",
+                            "commune": "CHOLET",
+                            "codeInseeCommune": "49099",
+                            "typeVoie": "RUE",
+                            "voie": "GEORGES CLEMENCEAU",
+                            "numVoie": "6"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010790100013",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1995-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49300",
+                            "commune": "CHOLET",
+                            "codeInseeCommune": "49099",
+                            "typeVoie": "RUE",
+                            "voie": "GEORGES CLEMENCEAU",
+                            "numVoie": "6"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1995-12-25",
+                                "dateFin": "1995-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "702C",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1995-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107901",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00013",
+                            "codeApe": "702C"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "GODET",
+                                "prenoms": [
+                                    "ROBERT"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107901"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:41+02:00",
+        "id": "63dce7191c4c579f850721eb",
+        "formality": {
+            "siren": "060108149",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1986-09-22",
+                    "societeEtrangere": false,
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "etablieEnFrance": true,
+                    "salarieEnFrance": true,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "caracteristiques": {
+                            "ambulant": false
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49300",
+                            "commune": "CHOLET",
+                            "codeInseeCommune": "49099",
+                            "typeVoie": "RUE",
+                            "voie": "NATIONALE",
+                            "numVoie": "204",
+                            "caracteristiques": {
+                                "ambulant": false
+                            }
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010814900018",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1988-09-30"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49300",
+                            "commune": "CHOLET",
+                            "codeInseeCommune": "49099",
+                            "typeVoie": "RUE",
+                            "voie": "NATIONALE",
+                            "numVoie": "204"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1988-09-30",
+                                "dateFin": "1988-09-30",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6244",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1988-09-30T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108149",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00018",
+                            "codeApe": "6244",
+                            "dateImmat": "1986-09-22T00:00:00+02:00",
+                            "origineId": "9",
+                            "effectifSalarie": "0",
+                            "effectifApprenti": "0",
+                            "dateDebutActiv": "1986-09-22"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "SESE",
+                                "prenoms": [
+                                    "HENRI"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "registreAnterieur": {
+                    "raa": {
+                        "estPresent": false
+                    },
+                    "rnm": {
+                        "estPresent": true,
+                        "dateImmatriculation": "1986-09-22T00:00:00+02:00",
+                        "dateRadiation": "1988-09-30T00:00:00+01:00"
+                    },
+                    "rncs": {
+                        "estPresent": false
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108149"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:42+02:00",
+        "id": "63dce7191c4c579f850721f9",
+        "formality": {
+            "siren": "060108289",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49610",
+                            "commune": "MURS-ERIGNE",
+                            "codeInseeCommune": "49223",
+                            "typeVoie": "RTE",
+                            "voie": "DE BRISSAC",
+                            "numVoie": "24"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010828900038",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1985-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49610",
+                            "commune": "MURS-ERIGNE",
+                            "codeInseeCommune": "49223",
+                            "typeVoie": "RTE",
+                            "voie": "DE BRISSAC",
+                            "numVoie": "24"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1985-12-25",
+                                "dateFin": "1985-12-25",
+                                "descriptionDetaillee": "Administration publique (tutelle) de la santé, de la formation, de la culture et des services sociaux, autre que sécurité sociale ",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "8412",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108289",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00038",
+                            "codeApe": "8412"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "LEMASSON",
+                                "prenoms": [
+                                    "GAETAN"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108289"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:42+02:00",
+        "id": "63dce7191c4c579f850721fd",
+        "formality": {
+            "siren": "060108412",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49250",
+                            "commune": "BRISSAC LOIRE AUBANCE",
+                            "codeInseeCommune": "49050",
+                            "typeVoie": "RUE",
+                            "voie": "LOUIS MORON"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010841200010",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49250",
+                            "commune": "BRISSAC LOIRE AUBANCE",
+                            "codeInseeCommune": "49050",
+                            "typeVoie": "RUE",
+                            "voie": "LOUIS MORON"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Fonds de placement et entités financières similaires",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6430",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-06-30T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108412",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00010",
+                            "codeApe": "6430",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "ROZE",
+                                "prenoms": [
+                                    "JEANNE"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108412"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:42+02:00",
+        "id": "63dce7191c4c579f85072205",
+        "formality": {
+            "siren": "060108511",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49330",
+                            "commune": "LES HAUTS-D'ANJOU",
+                            "codeInseeCommune": "49080",
+                            "typeVoie": "PL",
+                            "voie": "DE LA MAIRIE",
+                            "numVoie": "13"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010851100019",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49330",
+                            "commune": "LES HAUTS-D'ANJOU",
+                            "codeInseeCommune": "49080",
+                            "typeVoie": "PL",
+                            "voie": "DE LA MAIRIE",
+                            "numVoie": "13"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6445",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-05-31T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108511",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00019",
+                            "codeApe": "6445"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "MAUDET",
+                                "prenoms": [
+                                    "HENRI"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108511"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:42+02:00",
+        "id": "63dce7191c4c579f85072209",
+        "formality": {
+            "siren": "060108560",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49170",
+                            "commune": "LA POSSONNIERE",
+                            "codeInseeCommune": "49247",
+                            "voie": "BOURG"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010856000016",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1985-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49170",
+                            "commune": "LA POSSONNIERE",
+                            "codeInseeCommune": "49247",
+                            "voie": "BOURG"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1985-12-25",
+                                "dateFin": "1985-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "4704",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108560",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00016",
+                            "codeApe": "4704"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "BRECHET",
+                                "prenoms": [
+                                    "MOISE"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108560"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:43+02:00",
+        "id": "63dce71a1c4c579f85072211",
+        "formality": {
+            "siren": "060108727",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49250",
+                            "commune": "BRISSAC LOIRE AUBANCE",
+                            "codeInseeCommune": "49050",
+                            "typeVoie": "RUE",
+                            "voie": "DE VERDUN"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010872700011",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1984-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49250",
+                            "commune": "BRISSAC LOIRE AUBANCE",
+                            "codeInseeCommune": "49050",
+                            "typeVoie": "RUE",
+                            "voie": "DE VERDUN"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1984-12-25",
+                                "dateFin": "1984-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6423",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1984-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060108727",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00011",
+                            "codeApe": "6423"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "DUREAU",
+                                "prenoms": [
+                                    "RENE"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060108727"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:45+02:00",
+        "id": "63dce71c1c4c579f85072249",
+        "formality": {
+            "siren": "060109725",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49270",
+                            "commune": "LANDEMONT",
+                            "codeInseeCommune": "49172",
+                            "typeVoie": "RUE",
+                            "voie": "D'ANJOU",
+                            "numVoie": "23"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010972500014",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49270",
+                            "commune": "LANDEMONT",
+                            "codeInseeCommune": "49172",
+                            "typeVoie": "RUE",
+                            "voie": "D'ANJOU",
+                            "numVoie": "23"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Fonds de placement et entités financières similaires",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6430",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1986-09-01T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109725",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00014",
+                            "codeApe": "6430",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "MAILLARD",
+                                "prenoms": [
+                                    "JEAN"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109725"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:45+02:00",
+        "id": "63dce71c1c4c579f8507224b",
+        "formality": {
+            "siren": "060109758",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1964-08-27",
+                    "societeEtrangere": false,
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "etablieEnFrance": true,
+                    "salarieEnFrance": true,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "caracteristiques": {
+                            "ambulant": false
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49170",
+                            "commune": "SAINT-AUGUSTIN-DES-BOIS",
+                            "codeInseeCommune": "49266",
+                            "voie": "LE BOURG",
+                            "caracteristiques": {
+                                "ambulant": false
+                            }
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010975800015",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1992-12-31"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49170",
+                            "commune": "SAINT-AUGUSTIN-DES-BOIS",
+                            "codeInseeCommune": "49266",
+                            "voie": "LE BOURG"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1992-12-31",
+                                "dateFin": "1992-12-31",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "293C",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1993-01-11T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109758",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00015",
+                            "codeApe": "293C",
+                            "dateImmat": "1964-08-27T00:00:00+01:00",
+                            "origineId": "1",
+                            "effectifSalarie": "0",
+                            "effectifApprenti": "0",
+                            "dateDebutActiv": "1951-09-01"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "VERGER",
+                                "prenoms": [
+                                    "PAUL"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "registreAnterieur": {
+                    "raa": {
+                        "estPresent": false
+                    },
+                    "rnm": {
+                        "estPresent": true,
+                        "dateImmatriculation": "1964-08-27T00:00:00+01:00",
+                        "dateRadiation": "1993-01-11T00:00:00+01:00"
+                    },
+                    "rncs": {
+                        "estPresent": false
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109758"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:45+02:00",
+        "id": "63dce71c1c4c579f8507224d",
+        "formality": {
+            "siren": "060109766",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49100",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "SAINT AUBIN"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010976600018",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1984-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49100",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "SAINT AUBIN"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1984-12-25",
+                                "dateFin": "1984-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6244",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1984-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109766",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00018",
+                            "codeApe": "6244"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "DAVY",
+                                "prenoms": [
+                                    "JULES"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109766"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:45+02:00",
+        "id": "63dce71c1c4c579f8507224f",
+        "formality": {
+            "siren": "060109774",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1954-01-01",
+                    "societeEtrangere": false,
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "etablieEnFrance": true,
+                    "salarieEnFrance": true,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "caracteristiques": {
+                            "ambulant": false
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49600",
+                            "commune": "GESTE",
+                            "codeInseeCommune": "49151",
+                            "typeVoie": "RUE",
+                            "voie": "DU CENTRE",
+                            "numVoie": "8",
+                            "caracteristiques": {
+                                "ambulant": false
+                            }
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010977400012",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1988-08-21"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49600",
+                            "commune": "GESTE",
+                            "codeInseeCommune": "49151",
+                            "typeVoie": "RUE",
+                            "voie": "DU CENTRE",
+                            "numVoie": "8"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1988-08-21",
+                                "dateFin": "1988-08-21",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "3850",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1988-08-21T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109774",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00012",
+                            "codeApe": "3850",
+                            "dateImmat": "1954-01-01T00:00:00+01:00",
+                            "origineId": "9",
+                            "effectifSalarie": "0",
+                            "effectifApprenti": "0",
+                            "dateDebutActiv": "1954-01-01"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "MOURILLON",
+                                "prenoms": [
+                                    "MARC",
+                                    "ARISTIDE"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "registreAnterieur": {
+                    "raa": {
+                        "estPresent": false
+                    },
+                    "rnm": {
+                        "estPresent": true,
+                        "dateImmatriculation": "1954-01-01T00:00:00+01:00",
+                        "dateRadiation": "1988-08-21T00:00:00+02:00"
+                    },
+                    "rncs": {
+                        "estPresent": false
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109774"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:45+02:00",
+        "id": "63dce71d1c4c579f8507225b",
+        "formality": {
+            "siren": "060109923",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49440",
+                            "commune": "ANGRIE",
+                            "codeInseeCommune": "49008",
+                            "voie": "BOURG"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010992300015",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49440",
+                            "commune": "ANGRIE",
+                            "codeInseeCommune": "49008",
+                            "voie": "BOURG"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "5571",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-06-30T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109923",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00015",
+                            "codeApe": "5571",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "MICHEL",
+                                "prenoms": [
+                                    "ROGER"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109923"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:46+02:00",
+        "id": "63dce71d1c4c579f8507225f",
+        "formality": {
+            "siren": "060110087",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49120",
+                            "commune": "MELAY",
+                            "codeInseeCommune": "49199",
+                            "typeVoie": "RUE",
+                            "voie": "DU MAL JUIN",
+                            "numVoie": "28"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06011008700016",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1987-06-30"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49120",
+                            "commune": "MELAY",
+                            "codeInseeCommune": "49199",
+                            "typeVoie": "RUE",
+                            "voie": "DU MAL JUIN",
+                            "numVoie": "28"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1987-06-30",
+                                "dateFin": "1987-06-30",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6243",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1987-06-30T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060110087",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00016",
+                            "codeApe": "6243",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "TORNIER",
+                                "prenoms": [
+                                    "JEAN"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060110087"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:46+02:00",
+        "id": "63dce71d1c4c579f85072261",
+        "formality": {
+            "siren": "060110095",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49000",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "RABELAIS",
+                            "numVoie": "94"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06011009500019",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49000",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "RABELAIS",
+                            "numVoie": "94"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6707",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1986-12-31T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060110095",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00019",
+                            "codeApe": "6707",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "DEBOEUF",
+                                "prenoms": [
+                                    "YVES"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060110095"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:46+02:00",
+        "id": "63dce7171c4c579f850721b5",
+        "formality": {
+            "siren": "060107034",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1964-07-28",
+                    "societeEtrangere": false,
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "etablieEnFrance": true,
+                    "salarieEnFrance": true,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "caracteristiques": {
+                            "ambulant": false
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49500",
+                            "commune": "SEGRE-EN-ANJOU BLEU",
+                            "codeInseeCommune": "49331",
+                            "typeVoie": "PL",
+                            "voie": "ARISTIDE BRIAND",
+                            "numVoie": "6",
+                            "caracteristiques": {
+                                "ambulant": false
+                            }
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010703400013",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1997-03-31"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49500",
+                            "commune": "SEGRE-EN-ANJOU BLEU",
+                            "codeInseeCommune": "49331",
+                            "typeVoie": "PL",
+                            "voie": "ARISTIDE BRIAND",
+                            "numVoie": "6"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1997-03-31",
+                                "dateFin": "1997-03-31",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "151F",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1997-04-08T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107034",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00013",
+                            "codeApe": "151F",
+                            "dateImmat": "1964-07-28T00:00:00+01:00",
+                            "origineId": "3",
+                            "effectifSalarie": "6",
+                            "effectifApprenti": "0",
+                            "dateDebutActiv": "1960-08-01"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "MURZEAU",
+                                "prenoms": [
+                                    "PAUL"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "registreAnterieur": {
+                    "raa": {
+                        "estPresent": false
+                    },
+                    "rnm": {
+                        "estPresent": true,
+                        "dateImmatriculation": "1964-07-28T00:00:00+01:00",
+                        "dateRadiation": "1997-04-08T00:00:00+02:00"
+                    },
+                    "rncs": {
+                        "estPresent": false
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107034"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:46+02:00",
+        "id": "63dce7171c4c579f850721b7",
+        "formality": {
+            "siren": "060107059",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1966-10-20",
+                    "societeEtrangere": false,
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "etablieEnFrance": true,
+                    "salarieEnFrance": true,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "caracteristiques": {
+                            "ambulant": false
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49110",
+                            "commune": "SAINT REMY EN MAUGES",
+                            "codeInseeCommune": "49316",
+                            "typeVoie": "RUE",
+                            "voie": "DE BRETAGNE",
+                            "numVoie": "10",
+                            "caracteristiques": {
+                                "ambulant": false
+                            }
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010705900010",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "2002-04-07"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49110",
+                            "commune": "SAINT REMY EN MAUGES",
+                            "codeInseeCommune": "49316",
+                            "typeVoie": "RUE",
+                            "voie": "DE BRETAGNE",
+                            "numVoie": "10"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "2002-04-07",
+                                "dateFin": "2002-04-07",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "702C",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "2002-04-07T00:00:00+02:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107059",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00010",
+                            "codeApe": "702C",
+                            "dateImmat": "1966-10-20T00:00:00+01:00",
+                            "origineId": "1",
+                            "effectifSalarie": "1",
+                            "effectifApprenti": "0",
+                            "dateDebutActiv": "1946-01-01"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "SUPIOT",
+                                "prenoms": [
+                                    "LOUIS"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "registreAnterieur": {
+                    "raa": {
+                        "estPresent": false
+                    },
+                    "rnm": {
+                        "estPresent": true,
+                        "dateImmatriculation": "1966-10-20T00:00:00+01:00",
+                        "dateRadiation": "1993-05-04T00:00:00+02:00"
+                    },
+                    "rncs": {
+                        "estPresent": false
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107059"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:47+02:00",
+        "id": "63dce7171c4c579f850721c1",
+        "formality": {
+            "siren": "060107331",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49320",
+                            "commune": "SAULGE L'HOPITAL",
+                            "codeInseeCommune": "49327"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010733100013",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1984-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49320",
+                            "commune": "SAULGE L'HOPITAL",
+                            "codeInseeCommune": "49327"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1984-12-25",
+                                "dateFin": "1984-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6448",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1984-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107331",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00013",
+                            "codeApe": "6448"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "COLLET",
+                                "prenoms": [
+                                    "EUGENIE"
+                                ],
+                                "nomUsage": "MISANDEAU"
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107331"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:47+02:00",
+        "id": "63dce7181c4c579f850721c9",
+        "formality": {
+            "siren": "060107505",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49170",
+                            "commune": "LA POSSONNIERE",
+                            "codeInseeCommune": "49247",
+                            "typeVoie": "AV",
+                            "voie": "DE LA GARE"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010750500012",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1984-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49170",
+                            "commune": "LA POSSONNIERE",
+                            "codeInseeCommune": "49247",
+                            "typeVoie": "AV",
+                            "voie": "DE LA GARE"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1984-12-25",
+                                "dateFin": "1984-12-25",
+                                "descriptionDetaillee": "Fonds de placement et entités financières similaires",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6430",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1984-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107505",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00012",
+                            "codeApe": "6430"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "PERRIER",
+                                "prenoms": [
+                                    "JEAN",
+                                    "PAUL"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107505"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:47+02:00",
+        "id": "63dce7181c4c579f850721cb",
+        "formality": {
+            "siren": "060107513",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49270",
+                            "commune": "LE FUILET",
+                            "codeInseeCommune": "49145",
+                            "typeVoie": "RUE",
+                            "voie": "DE LA MAIRIE",
+                            "numVoie": "17"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010751300016",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49270",
+                            "commune": "LE FUILET",
+                            "codeInseeCommune": "49145",
+                            "typeVoie": "RUE",
+                            "voie": "DE LA MAIRIE",
+                            "numVoie": "17"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "8703",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1986-12-31T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107513",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00016",
+                            "codeApe": "8703",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "ABLINE",
+                                "prenoms": [
+                                    "ARTHUR"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107513"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:48+02:00",
+        "id": "63dce7181c4c579f850721cd",
+        "formality": {
+            "siren": "060107588",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49000",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "DE LA MADELEINE",
+                            "numVoie": "145"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010758800018",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49000",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "DE LA MADELEINE",
+                            "numVoie": "145"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6243",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1986-09-30T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107588",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00018",
+                            "codeApe": "6243",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "GUITTET",
+                                "prenoms": [
+                                    "ROBERT",
+                                    "ARTHUR"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107588"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:48+02:00",
+        "id": "63dce7181c4c579f850721d7",
+        "formality": {
+            "siren": "060107745",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49110",
+                            "commune": "MONTREVAULT-SUR-EVRE",
+                            "codeInseeCommune": "49218",
+                            "voie": "COT DU VIEUX PONT",
+                            "numVoie": "3"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010774500014",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49110",
+                            "commune": "MONTREVAULT-SUR-EVRE",
+                            "codeInseeCommune": "49218",
+                            "voie": "COT DU VIEUX PONT",
+                            "numVoie": "3"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "0010",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1986-12-31T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107745",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00014",
+                            "codeApe": "0010",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "GRIMAULT",
+                                "prenoms": [
+                                    "SUZANNE",
+                                    "JEANNE"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107745"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:49+02:00",
+        "id": "63dce7181c4c579f850721db",
+        "formality": {
+            "siren": "060107844",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49410",
+                            "commune": "SAINT FLORENT LE VIEIL",
+                            "codeInseeCommune": "49276",
+                            "typeVoie": "RUE",
+                            "voie": "DE LA BELLIERE",
+                            "numVoie": "25"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010784400023",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1988-11-18"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49410",
+                            "commune": "SAINT FLORENT LE VIEIL",
+                            "codeInseeCommune": "49276",
+                            "typeVoie": "RUE",
+                            "voie": "DE LA BELLIERE",
+                            "numVoie": "25"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1988-11-18",
+                                "dateFin": "1988-11-18",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "524C",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1988-11-18T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107844",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00023",
+                            "codeApe": "524C",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "SECHER",
+                                "prenoms": [
+                                    "FRANCINE"
+                                ],
+                                "nomUsage": "BORE"
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107844"
+    },
+    {
+        "updatedAt": "2023-06-02T03:21:36+02:00",
+        "id": "63a4869ff5da5674900bada7",
+        "formality": {
+            "siren": "060107141",
+            "content": {
+                "formeExerciceActivitePrincipale": "ARTISANALE_REGLEMENTEE",
+                "natureCreation": {
+                    "dateCreation": "1993-02-02",
+                    "societeEtrangere": false,
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "etablieEnFrance": true,
+                    "salarieEnFrance": true,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "caracteristiques": {
+                            "ambulant": false
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49240",
+                            "commune": "AVRILLE",
+                            "codeInseeCommune": "49015",
+                            "typeVoie": "RUE",
+                            "voie": "DE LA NOUETTE",
+                            "numVoie": "4",
+                            "caracteristiques": {
+                                "ambulant": false
+                            }
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "06010714100032",
+                            "indicateurEtablissementPrincipal": true
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49240",
+                            "commune": "AVRILLE",
+                            "codeInseeCommune": "49015",
+                            "typeVoie": "RUE",
+                            "voie": "DE LA NOUETTE",
+                            "numVoie": "4"
+                        },
+                        "activites": [
+                            {
+                                "categoryCode": "01030200",
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1999-01-01",
+                                "formeExercice": "ARTISANALE_REGLEMENTEE",
+                                "categorisationActivite1": "01",
+                                "categorisationActivite2": "03",
+                                "categorisationActivite3": "02",
+                                "categorisationActivite4": "00",
+                                "descriptionDetaillee": "Location de terrains et d'autres biens immobiliers",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6820B",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "autresEtablissements": [
+                        {
+                            "descriptionEtablissement": {
+                                "rolePourEntreprise": "14",
+                                "siret": "06010714100016",
+                                "indicateurEtablissementPrincipal": false,
+                                "dateEffetFermeture": "1993-01-19"
+                            },
+                            "adresse": {
+                                "pays": "FRANCE",
+                                "codePays": "FRA",
+                                "codePostal": "49100",
+                                "commune": "ANGERS",
+                                "codeInseeCommune": "49007",
+                                "typeVoie": "RUE",
+                                "voie": "DES LICES"
+                            },
+                            "activites": [
+                                {
+                                    "indicateurPrincipal": true,
+                                    "indicateurProlongement": false,
+                                    "dateDebut": "1990-03-13",
+                                    "dateFin": "1993-01-19",
+                                    "descriptionDetaillee": "Location de terrains et d'autres biens immobiliers",
+                                    "indicateurActiviteeApe": true,
+                                    "rolePrincipalPourEntreprise": false,
+                                    "codeApe": "6820B",
+                                    "activiteRattacheeEirl": false
+                                }
+                            ]
+                        },
+                        {
+                            "descriptionEtablissement": {
+                                "rolePourEntreprise": "4",
+                                "siret": "06010714100024",
+                                "enseigne": "NEW LOOK COIFFURE",
+                                "indicateurEtablissementPrincipal": false
+                            },
+                            "adresse": {
+                                "pays": "FRANCE",
+                                "codePays": "FRA",
+                                "codePostal": "49240",
+                                "commune": "AVRILLE",
+                                "codeInseeCommune": "49015",
+                                "typeVoie": "AV",
+                                "voie": "PIERRE MENDES FRANCE",
+                                "numVoie": "30",
+                                "indiceRepetition": "T",
+                                "complementLocalisation": "CTRE CIAL STOC"
+                            },
+                            "activites": [
+                                {
+                                    "categoryCode": "01030200",
+                                    "indicateurPrincipal": true,
+                                    "indicateurProlongement": false,
+                                    "dateDebut": "1993-01-19",
+                                    "formeExercice": "ARTISANALE_REGLEMENTEE",
+                                    "categorisationActivite1": "01",
+                                    "categorisationActivite2": "03",
+                                    "categorisationActivite3": "02",
+                                    "categorisationActivite4": "00",
+                                    "descriptionDetaillee": "Location de terrains et d'autres biens immobiliers",
+                                    "indicateurActiviteeApe": true,
+                                    "rolePrincipalPourEntreprise": false,
+                                    "codeApe": "6820B",
+                                    "activiteRattacheeEirl": false
+                                }
+                            ]
+                        }
+                    ],
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060107141",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00032",
+                            "codeApe": "6820B",
+                            "dateImmat": "1993-02-02T00:00:00+01:00",
+                            "origineId": "3",
+                            "effectifSalarie": "3",
+                            "effectifApprenti": "0",
+                            "dateDebutActiv": "1992-12-01"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "FROGER",
+                                "prenoms": [
+                                    "JEAN",
+                                    "CLAUDE"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "registreAnterieur": {
+                    "raa": {
+                        "estPresent": false
+                    },
+                    "rnm": {
+                        "estPresent": true,
+                        "dateImmatriculation": "1993-02-02T00:00:00+01:00",
+                        "dateRadiation": "1999-01-20T00:00:00+01:00"
+                    },
+                    "rncs": {
+                        "estPresent": false
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060107141"
+    },
+    {
+        "updatedAt": "2023-07-06T10:44:37+02:00",
+        "id": "63dce71e823aa211f401e759",
+        "formality": {
+            "siren": "060106986",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "dateCreation": "1960-12-25",
+                    "societeEtrangere": false,
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "etablieEnFrance": true,
+                    "salarieEnFrance": true,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49520",
+                            "commune": "CHATELAIS",
+                            "codeInseeCommune": "49081"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010698600015",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1989-06-30"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49520",
+                            "commune": "CHATELAIS",
+                            "codeInseeCommune": "49081"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1989-06-30",
+                                "dateFin": "1989-06-30",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6442",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060106986",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00015",
+                            "codeApe": "6442",
+                            "dateImmat": "1960-12-25T00:00:00+01:00"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "LESOURD",
+                                "prenoms": [
+                                    "ALPHONSE"
+                                ],
+                                "genre": "1",
+                                "situationMatrimoniale": "1",
+                                "siren": "060106986"
+                            }
+                        }
+                    }
+                },
+                "registreAnterieur": {
+                    "raa": {
+                        "estPresent": false
+                    },
+                    "rnm": {
+                        "estPresent": false
+                    },
+                    "rncs": {
+                        "estPresent": true,
+                        "dateImmatriculation": "1962-01-19T00:00:00+01:00"
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060106986"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:45+02:00",
+        "id": "63dce71c1c4c579f85072251",
+        "formality": {
+            "siren": "060109782",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49100",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "LENEPVEU"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010978200015",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1984-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49100",
+                            "commune": "ANGERS",
+                            "codeInseeCommune": "49007",
+                            "typeVoie": "RUE",
+                            "voie": "LENEPVEU"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1984-12-25",
+                                "dateFin": "1984-12-25",
+                                "descriptionDetaillee": "Activités de banque centrale",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6411",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1984-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109782",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00015",
+                            "codeApe": "6411"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "LE BLANC",
+                                "prenoms": [
+                                    "MARCEL"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109782"
+    },
+    {
+        "updatedAt": "2023-05-12T11:56:45+02:00",
+        "id": "63dce71d1c4c579f85072257",
+        "formality": {
+            "siren": "060109881",
+            "content": {
+                "natureCessation": "1",
+                "natureCreation": {
+                    "formeJuridique": "1000",
+                    "microEntreprise": false,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false,
+                    "eirl": false
+                },
+                "personnePhysique": {
+                    "adresseEntreprise": {
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49190",
+                            "commune": "ROCHEFORT-SUR-LOIRE",
+                            "codeInseeCommune": "49259",
+                            "typeVoie": "PL",
+                            "voie": "DE L EGLISE"
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "12",
+                            "siret": "06010988100015",
+                            "indicateurEtablissementPrincipal": true,
+                            "dateEffetFermeture": "1985-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "49190",
+                            "commune": "ROCHEFORT-SUR-LOIRE",
+                            "codeInseeCommune": "49259",
+                            "typeVoie": "PL",
+                            "voie": "DE L EGLISE"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1985-12-25",
+                                "dateFin": "1985-12-25",
+                                "descriptionDetaillee": "Activité déduite de la reconstitution des données. Il vous est demandé de la reformuler.",
+                                "indicateurActiviteeApe": false,
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "6243",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    "detailCessationEntreprise": {
+                        "dateRadiation": "1985-12-25T00:00:00+01:00"
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "060109881",
+                            "formeJuridique": "1000",
+                            "nicSiege": "00015",
+                            "codeApe": "6243"
+                        },
+                        "entrepreneur": {
+                            "descriptionPersonne": {
+                                "nom": "MECHINEAU",
+                                "prenoms": [
+                                    "JEAN"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "typePersonne": "P",
+            "diffusionCommerciale": true,
+            "formeJuridique": "1000"
+        },
+        "siren": "060109881"
+    },
+    {
+    "updatedAt": "2023-05-12T11:56:15+02:00",
+    "id": "63a486651cf905e08e01c40f",
+    "formality": {
+        "siren": "058809591",
+        "content": {
+            "formeExerciceActivitePrincipale": "COMMERCIALE",
+            "natureCreation": {
+                "dateCreation": "2010-07-21",
+                "societeEtrangere": false,
+                "formeJuridique": "6540",
+                "microEntreprise": false,
+                "etablieEnFrance": true,
+                "salarieEnFrance": true,
+                "relieeEntrepriseAgricole": false,
+                "entrepriseAgricole": false,
+                "eirl": false
+            },
+            "personneMorale": {
+                "adresseEntreprise": {
+                    "adresse": {
+                        "pays": "FRANCE",
+                        "codePays": "FRA",
+                        "codePostal": "13400",
+                        "commune": "AUBAGNE",
+                        "codeInseeCommune": "13005",
+                        "typeVoie": "AV",
+                        "voie": "DE JOUQUES",
+                        "numVoie": "160",
+                        "complementLocalisation": "ZI LES PALUDS"
+                    }
+                },
+                "etablissementPrincipal": {
+                    "descriptionEtablissement": {
+                        "rolePourEntreprise": "2",
+                        "siret": "05880959100041",
+                        "indicateurEtablissementPrincipal": true
+                    },
+                    "adresse": {
+                        "pays": "FRANCE",
+                        "codePays": "FRA",
+                        "codePostal": "13400",
+                        "commune": "AUBAGNE",
+                        "codeInseeCommune": "13005",
+                        "typeVoie": "AV",
+                        "voie": "DE JOUQUES",
+                        "numVoie": "160",
+                        "complementLocalisation": "ZI LES PALUDS"
+                    },
+                    "activites": [
+                        {
+                            "categoryCode": "07060112",
+                            "indicateurPrincipal": true,
+                            "indicateurProlongement": false,
+                            "dateDebut": "2009-01-01",
+                            "formeExercice": "COMMERCIALE",
+                            "categorisationActivite1": "07",
+                            "categorisationActivite2": "06",
+                            "categorisationActivite3": "01",
+                            "categorisationActivite4": "12",
+                            "descriptionDetaillee": "Location de logements",
+                            "indicateurActiviteeApe": true,
+                            "rolePrincipalPourEntreprise": true,
+                            "codeApe": "6820A",
+                            "activiteRattacheeEirl": false
+                        },
+                        {
+                            "categoryCode": "07060109",
+                            "indicateurPrincipal": false,
+                            "indicateurProlongement": false,
+                            "dateDebut": "2009-01-01",
+                            "formeExercice": "COMMERCIALE",
+                            "categorisationActivite1": "07",
+                            "categorisationActivite2": "06",
+                            "categorisationActivite3": "01",
+                            "categorisationActivite4": "09",
+                            "descriptionDetaillee": "Location de logements",
+                            "indicateurActiviteeApe": true,
+                            "rolePrincipalPourEntreprise": false,
+                            "codeApe": "6820A",
+                            "activiteRattacheeEirl": false
+                        }
+                    ]
+                },
+                "autresEtablissements": [
+                    {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "14",
+                            "siret": "05880959100017",
+                            "indicateurEtablissementPrincipal": false,
+                            "dateEffetFermeture": "1992-12-25"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "13001",
+                            "commune": "MARSEILLE 1",
+                            "codeInseeCommune": "13201",
+                            "typeVoie": "RUE",
+                            "voie": "ADOLPHE THIERS",
+                            "numVoie": "57"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1900-01-01",
+                                "dateFin": "1992-12-25",
+                                "descriptionDetaillee": "Location de logements",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": false,
+                                "codeApe": "6820A",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "14",
+                            "siret": "05880959100025",
+                            "indicateurEtablissementPrincipal": false,
+                            "dateEffetFermeture": "1996-11-20"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "13400",
+                            "commune": "AUBAGNE",
+                            "codeInseeCommune": "13005",
+                            "typeVoie": "AV",
+                            "voie": "DE JOUQUES",
+                            "numVoie": "102",
+                            "complementLocalisation": "ZI DES PALUDS"
+                        },
+                        "activites": [
+                            {
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1992-04-30",
+                                "dateFin": "1996-11-20",
+                                "descriptionDetaillee": "Location de logements",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": false,
+                                "codeApe": "6820A",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    },
+                    {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "14",
+                            "siret": "05880959100033",
+                            "indicateurEtablissementPrincipal": false,
+                            "dateEffetFermeture": "2009-01-01"
+                        },
+                        "adresse": {
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "83500",
+                            "commune": "LA SEYNE-SUR-MER",
+                            "codeInseeCommune": "83126",
+                            "typeVoie": "COR",
+                            "voie": "GEORGES POMPIDOU",
+                            "numVoie": "1565"
+                        },
+                        "activites": [
+                            {
+                                "categoryCode": "07060112",
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1996-11-20",
+                                "dateFin": "2009-01-01",
+                                "formeExercice": "COMMERCIALE",
+                                "categorisationActivite1": "07",
+                                "categorisationActivite2": "06",
+                                "categorisationActivite3": "01",
+                                "categorisationActivite4": "12",
+                                "descriptionDetaillee": "Location de logements",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": false,
+                                "codeApe": "6820A",
+                                "activiteRattacheeEirl": false
+                            },
+                            {
+                                "categoryCode": "07060109",
+                                "indicateurPrincipal": false,
+                                "indicateurProlongement": false,
+                                "dateDebut": "1996-11-20",
+                                "dateFin": "2009-01-01",
+                                "formeExercice": "COMMERCIALE",
+                                "categorisationActivite1": "07",
+                                "categorisationActivite2": "06",
+                                "categorisationActivite3": "01",
+                                "categorisationActivite4": "09",
+                                "descriptionDetaillee": "Location de logements",
+                                "indicateurActiviteeApe": true,
+                                "rolePrincipalPourEntreprise": false,
+                                "codeApe": "6820A",
+                                "activiteRattacheeEirl": false
+                            }
+                        ]
+                    }
+                ],
+                "observations": {
+                    "rcs": [
+                        {
+                            "idObservation": 1,
+                            "numObservation": "21917",
+                            "dateAjout": "2002-01-01",
+                            "texte": "  Conversion du capital social en euros effectuée d'office par le greffier du tribunal de commerce en application du décret N° 2001-474 du 30 mai 2001 ",
+                            "dateGreffe": "2010-07-23",
+                            "etatObs": "Ajout",
+                            "dateDerModif": "2017-05-04"
+                        },
+                        {
+                            "idObservation": 3,
+                            "numObservation": "22110",
+                            "dateAjout": "2010-07-21",
+                            "texte": "  La société ne conserve aucune activité à son ancien siège  ",
+                            "dateGreffe": "2010-07-23",
+                            "etatObs": "Ajout",
+                            "dateDerModif": "2017-05-04"
+                        }
+                    ]
+                },
+                "identite": {
+                    "entreprise": {
+                        "siren": "058809591",
+                        "denomination": "CHARLES BAGATTINI",
+                        "formeJuridique": "6540",
+                        "nicSiege": "00041",
+                        "codeApe": "6820A",
+                        "indicateurAssocieUnique": false,
+                        "dateImmat": "2010-07-21T00:00:00+02:00"
+                    },
+                    "description": {
+                        "duree": 26,
+                        "ess": false,
+                        "capitalVariable": false,
+                        "montantCapital": 7866.37,
+                        "deviseCapital": "EUR",
+                        "indicateurOrigineFusionScission": false,
+                        "indicateurAssocieUniqueDirigeant": false
+                    }
+                },
+                "composition": {
+                    "pouvoirs": [
+                        {
+                            "typeDePersonne": "INDIVIDU",
+                            "individu": {
+                                "descriptionPersonne": {
+                                    "dateDeNaissance": "1963-04",
+                                    "role": "30",
+                                    "nom": "BAGATTINI",
+                                    "prenoms": [
+                                        "MICHEL"
+                                    ],
+                                    "nationalite": "Française",
+                                    "situationMatrimoniale": "1"
+                                },
+                                "adresseDomicile": {
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA",
+                                    "codePostal": "13600",
+                                    "commune": "La Ciotat",
+                                    "codeInseeCommune": "13028"
+                                }
+                            },
+                            "indicateurActifAgricole": false
+                        }
+                    ]
+                },
+                "structureEntreprise": {
+                    "indicateurPrincipalIdemSiege": true,
+                    "aucuneActivite": false
+                }
+            },
+            "registreAnterieur": {
+                "raa": {
+                    "estPresent": false
+                },
+                "rnm": {
+                    "estPresent": false
+                },
+                "rncs": {
+                    "estPresent": true,
+                    "dateImmatriculation": "2010-07-21T00:00:00+02:00"
+                }
+            }
+        },
+        "typePersonne": "M",
+        "diffusionCommerciale": true,
+        "formeJuridique": "6540"
+    },
+    "siren": "058809591"
+    }
+]
