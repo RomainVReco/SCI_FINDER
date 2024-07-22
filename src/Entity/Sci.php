@@ -15,7 +15,10 @@ class Sci
     private ?int $id = null;
 
     #[ORM\Column(length: 60)]
-    private ?string $IdSci = null;
+    private ?string $idSci = null;
+    
+    #[ORM\Column(length: 30)]
+    private ?string $siren = null;
 
     #[ORM\Column(type: Types::DATE_MUTABLE)]
     private ?\DateTimeInterface $dateCreation = null;
@@ -50,6 +53,12 @@ class Sci
     #[ORM\Column(length: 5, nullable: true)]
     private ?string $codeApe = null;
 
+    #[ORM\Column(length: 60, nullable: true)]
+    private ?string $fileName = null;
+
+    #[ORM\Column(nullable: true)]
+    private ?int $positionInJson = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -57,8 +66,18 @@ class Sci
 
     public function setId(string $Id): static
     {
-        $this->Id = $Id;
+        $this->id = $Id;
+        return $this;
+    }
 
+    public function getIdSCI(): ?string
+    {
+        return $this->idSci;
+    }
+
+    public function setIdSCI(string $idSCI): static
+    {
+        $this->idSci = $idSCI;
         return $this;
     }
 
@@ -190,6 +209,42 @@ class Sci
     public function setCodeApe(?string $codeApe): static
     {
         $this->codeApe = $codeApe;
+
+        return $this;
+    }
+
+    public function getFileName(): ?string
+    {
+        return $this->fileName;
+    }
+
+    public function setFileName(?string $fileName): static
+    {
+        $this->fileName = $fileName;
+
+        return $this;
+    }
+
+    public function getPositionInJson(): ?int
+    {
+        return $this->positionInJson;
+    }
+
+    public function setPositionInJson(?int $positionInJson): static
+    {
+        $this->positionInJson = $positionInJson;
+
+        return $this;
+    }
+
+    public function getSiren(): ?string
+    {
+        return $this->siren;
+    }
+
+    public function setSiren(string $siren): static
+    {
+        $this->siren = $siren;
 
         return $this;
     }

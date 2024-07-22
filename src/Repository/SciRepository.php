@@ -16,6 +16,19 @@ class SciRepository extends ServiceEntityRepository
         parent::__construct($registry, Sci::class);
     }
 
+    public function findByPartialId(string $partialSciId):array 
+    {
+        $em = $this->getEntityManager();
+        $queryBuilder = $em->createQueryBuilder();
+        $queryBuilder->select('*')
+            ->from('sci', 'sci')
+            ->where('sci.id_sci LIKE :partialId')
+            ->setParameter('partialId', $partialSciId.'%');
+
+        $query = $queryBuilder->getQuery();
+        return $query->getResult();
+    }
+
 //    /**
 //     * @return Sci[] Returns an array of Sci objects
 //     */
