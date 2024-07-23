@@ -28,7 +28,6 @@ class AppFixtures extends Fixture
             $manager->persist($sci);
         }
         // $product = new Product();
-
         $manager->flush();
     }
 }
