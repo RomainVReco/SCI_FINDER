@@ -60,6 +60,7 @@ class SciController extends AbstractController
     public function createSCI (Request $request, EntityManagerInterface $em, 
     UrlGeneratorInterface $urlGenerator, ValidatorInterface $validator): JsonResponse
      {
+        // var_dump($request);  
         $sci = $this->serializer->deserialize($request->getContent(), Sci::class, 'json');
         $em->persist($sci);
         $em->flush();
@@ -69,4 +70,48 @@ class SciController extends AbstractController
 
         return new JsonResponse($jsonSCI, Response::HTTP_CREATED, ["Location" => $location], true);
      }
+
+    #[Route('api/sci/{id}', name:'deleteSci', methods:['DELETE'])]
+    public function deleteSci(int $id, EntityManagerInterface $em): JsonResponse{
+        $sci = $this->sciRepo->find($id);
+        if ($sci) {
+            $em->remove($sci);
+            $em->flush();
+            return new JsonResponse(null, Response::HTTP_NO_CONTENT);
+        }
+        return new JsonResponse(null, Response::HTTP_NOT_FOUND);
+    }
+
+    #[Route('api/sci/{passwor}', name:'updateSci', methods:['PUT'])]
+    public function saveScriptSci(Request $request, SerializerInterface $serializer, EntityManagerInterface $em): JsonResponse{
+    $file = DIR_JSON_PART;
+    $data = file_get_contents($file);
+    $obj = json_decode($data);
+
+    // Mettre la condition  pour vérifier la forme juridique
+    print_r(count($obj));
+    // for ($i = 0; $i<count($obj); $i++) {
+    for ($i = 0; $i<3; $i++) {
+        if (!empty($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique))
+            {
+                if (strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"Société civile immobilière") || 
+                strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"6540"))
+                {
+                    $sci = new Sci();
+                    $sci->setIdSCI($obj[$i]->id);
+                    $sci->setSiren($obj[$i]->formality->siren);
+                    $sci->setPositionInJson($i+1);
+                    $sci->setFileName('madeup.json');
+                    print_r($sci);
+                    $em->persist($sci);
+                    $em->flush();
+
+                    $jsonSCI = $this->serializer->serialize($sci, 'json');
+                    $location = $urlGenerator->generate('singleSCI', ['id' => $sci->getId()], UrlGeneratorInterface::ABSOLUTE_PATH);
+
+                    return new JsonResponse($jsonSCI, Response::HTTP_CREATED, ["Location" => $location], true);
+                } else echo "noway";
+        } else echo "another way ";
+    }
+        }
 }
