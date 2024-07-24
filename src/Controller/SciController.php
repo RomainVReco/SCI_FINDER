@@ -31,8 +31,10 @@ class SciController extends AbstractController
 
     // Mettre la condition  pour vérifier la forme juridique
     // for ($i = 0; $i<count($obj); $i++) {
-    if ($password == "Jambon") {
-        for ($i = 0; $i<3; $i++) {
+    if ($password == "Jambon") 
+    {
+        for ($i = 0; $i<3; $i++) 
+        {
             if (!empty($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique))
                 {
                     if (strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"Société civile immobilière") || 
@@ -46,14 +48,21 @@ class SciController extends AbstractController
                         $sci->setFileName('madeup.json');
                         $em->persist($sci);   
                     } 
-            } 
+                } 
         }
         $unitOfWorks=$em->getUnitOfWork();
-        $insertions = $unitOfWorks->getEntityInsertions();
+        $insertions = $unitOfWorks->getScheduledEntityInsertions();
         $em->flush();
-        $data = {'success' : 'ok', 'insertions' : $insertions}
-        return new JsonResponse($data, Response::HTTP_CREATED, [], true);
-    } else return new JsonResponse(null, Response::HTTP_FORBIDDEN);
+        $data = [
+            'success' => 'ok', 
+            'insertions' => count($insertions)
+            ];
+        return new JsonResponse($data, Response::HTTP_CREATED, [], false);
+
+    } else {
+        return new JsonResponse(null, Response::HTTP_FORBIDDEN);
+    }
+    return null;
     }
 
     #[Route('/api/sci', name:'AllSCI', methods:['GET'])]
