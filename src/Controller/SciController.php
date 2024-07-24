@@ -69,4 +69,7 @@ class SciController extends AbstractController
 
         return new JsonResponse($jsonSCI, Response::HTTP_CREATED, ["Location" => $location], true);
      }
+
+     #[Route('/api/sci/script/{password}', name:'scriptSCI', methods:['POST'])]
+     public function jsonScanner(string $password, )
 }
