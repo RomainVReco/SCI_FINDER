@@ -17,13 +17,43 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 class SciController extends AbstractController
 {
 
-    private SciRepository $sciRepo;
-    private SerializerInterface $serializer;
-
-    public function __construct(SciRepository $sciRepo, SerializerInterface $serializer) 
+    public function __construct(private SciRepository $sciRepo, private SerializerInterface $serializer) 
     {
-        $this->sciRepo = $sciRepo;
-        $this->serializer = $serializer;
+    }
+
+    #[Route('/api/sci/script/{password}', name:'scriptSci', methods:['GET'])]
+    public function saveScriptSci(string $password, Request $request, SerializerInterface $serializer, EntityManagerInterface $em, UrlGeneratorInterface $urlGenerator): JsonResponse
+    {
+    
+    $file = DIR_JSON_PART;
+    $data = file_get_contents($file);
+    $obj = json_decode($data);
+
+    // Mettre la condition  pour vérifier la forme juridique
+    // for ($i = 0; $i<count($obj); $i++) {
+    if ($password == "Jambon") {
+        for ($i = 0; $i<3; $i++) {
+            if (!empty($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique))
+                {
+                    if (strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"Société civile immobilière") || 
+                    strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"6540"))
+                    {
+                        $sci = new Sci();
+                        $sci->setIdSCI($obj[$i]->id);
+                        $sci->setSiren($obj[$i]->formality->siren);
+                        $sci->setPositionInJson($i+1);
+                        $sci->setFormeJuridique('Société civile immobilière');
+                        $sci->setFileName('madeup.json');
+                        $em->persist($sci);   
+                    } 
+            } 
+        }
+        $unitOfWorks=$em->getUnitOfWork();
+        $insertions = $unitOfWorks->getEntityInsertions();
+        $em->flush();
+        $data = {'success' : 'ok', 'insertions' : $insertions}
+        return new JsonResponse($data, Response::HTTP_CREATED, [], true);
+    } else return new JsonResponse(null, Response::HTTP_FORBIDDEN);
     }
 
     #[Route('/api/sci', name:'AllSCI', methods:['GET'])]
@@ -45,7 +75,7 @@ class SciController extends AbstractController
         return new JsonResponse(null, Response::HTTP_NOT_FOUND);
     }
 
-    #[Route('api/sci/partial/{id}', name:'partialSCI', methods:['GET'])]
+    #[Route('/api/sci/partial/{id}', name:'partialSCI', methods:['GET'])]
     public function getSciFromPartialId(int $id): JsonResponse
     {
         $sci = $this->sciRepo->findByPartialId($id);
@@ -58,7 +88,7 @@ class SciController extends AbstractController
 
     #[Route('/api/sci', name:'createSCI', methods:['POST'])]
     public function createSCI (Request $request, EntityManagerInterface $em, 
-    UrlGeneratorInterface $urlGenerator, ValidatorInterface $validator): JsonResponse
+    UrlGeneratorInterface $urlGenerator): JsonResponse
      {
         // var_dump($request);  
         $sci = $this->serializer->deserialize($request->getContent(), Sci::class, 'json');
@@ -71,7 +101,7 @@ class SciController extends AbstractController
         return new JsonResponse($jsonSCI, Response::HTTP_CREATED, ["Location" => $location], true);
      }
 
-    #[Route('api/sci/{id}', name:'deleteSci', methods:['DELETE'])]
+    #[Route('/api/sci/{id}', name:'deleteSci', methods:['DELETE'])]
     public function deleteSci(int $id, EntityManagerInterface $em): JsonResponse{
         $sci = $this->sciRepo->find($id);
         if ($sci) {
@@ -82,36 +112,6 @@ class SciController extends AbstractController
         return new JsonResponse(null, Response::HTTP_NOT_FOUND);
     }
 
-    #[Route('api/sci/{passwor}', name:'updateSci', methods:['PUT'])]
-    public function saveScriptSci(Request $request, SerializerInterface $serializer, EntityManagerInterface $em): JsonResponse{
-    $file = DIR_JSON_PART;
-    $data = file_get_contents($file);
-    $obj = json_decode($data);
+   
 
-    // Mettre la condition  pour vérifier la forme juridique
-    print_r(count($obj));
-    // for ($i = 0; $i<count($obj); $i++) {
-    for ($i = 0; $i<3; $i++) {
-        if (!empty($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique))
-            {
-                if (strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"Société civile immobilière") || 
-                strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"6540"))
-                {
-                    $sci = new Sci();
-                    $sci->setIdSCI($obj[$i]->id);
-                    $sci->setSiren($obj[$i]->formality->siren);
-                    $sci->setPositionInJson($i+1);
-                    $sci->setFileName('madeup.json');
-                    print_r($sci);
-                    $em->persist($sci);
-                    $em->flush();
-
-                    $jsonSCI = $this->serializer->serialize($sci, 'json');
-                    $location = $urlGenerator->generate('singleSCI', ['id' => $sci->getId()], UrlGeneratorInterface::ABSOLUTE_PATH);
-
-                    return new JsonResponse($jsonSCI, Response::HTTP_CREATED, ["Location" => $location], true);
-                } else echo "noway";
-        } else echo "another way ";
-    }
-        }
 }
