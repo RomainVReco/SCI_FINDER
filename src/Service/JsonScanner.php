@@ -9,31 +9,62 @@ require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'Utils
 require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'Entity' . DIRECTORY_SEPARATOR . 'Sci.php'); 
 require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php');
 
-$path = 'D:\Stockage\stock RNE formalité';
+$path = 'D:\Stockage\stock RNE formalité\\';
 $dir = scandir($path);
 print_r($dir);
 $arraySci = [];
+$totalScan = 0;
+$totalSci = 0;
 // for ($i = 2; $i<count($dir); $i++) {
 for ($i = 2; $i<4; $i++) {
     $fileName = $dir[$i];
     $file = $path . $fileName;
+    print_r($file);
     $data = file_get_contents($file);
     $obj = json_decode($data);
-    if (!empty($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique))
+    echo(" \n");
+    print_r("Nom fichier : " . $fileName);
+    echo(" \n");
+    print_r("Nombre objets du fichier : " . count($obj));
+    echo(" \n");
+    for ($j = 0 ; $j<count($obj); $j++) {
+        $totalScan++;
+    if (isset($obj[$j]->formality->content->natureCreation->formeJuridique))
         {
-            if (strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"Société civile immobilière") || 
-            strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"6540"))
+            $formeJuridique = $obj[$j]->formality->content->natureCreation->formeJuridique;
+            if (strcmp($formeJuridique,"6540") == 0 || 
+            strcmp($formeJuridique,"Société civile immobilière") == 0)
             {
                 $sci = new Sci();
-                $sci->setIdSCI($obj[$i]->id);
-                $sci->setSiren($obj[$i]->formality->siren);
-                $sci->setPositionInJson($i);
+                $sci->setIdSCI($obj[$j]->id);
+                $sci->setSiren($obj[$j]->formality->siren);
+                $sci->setPositionInJson($j);
                 $sci->setFileName($fileName);
                 array_push($arraySci, $sci);
-            } else echo "noway";
-    } else echo "another way ";
-    echo(" \n");
-    print_r(count($arraySci));
+                $totalSci++;
+            }
+    } 
+    if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique)) {
+        $formeJuridique = $obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique;
+        if (strcmp($formeJuridique,"Société civile immobilière") == 0 || 
+            strcmp($formeJuridique,"6540") == 0) {
+                $sci = new Sci();
+                $sci->setIdSCI($obj[$j]->id);
+                $sci->setSiren($obj[$j]->formality->siren);
+                $sci->setPositionInJson($j);
+                $sci->setFileName($fileName);
+                array_push($arraySci, $sci);
+                $totalSci++;
+            }
+    }
+}
+echo(" \n");
+print_r("Total scan : " . $totalScan);
+echo(" \n");
+print_r("Total SCI : " . $totalSci);
+echo(" \n");
+// print_r(" Total array SCI : " . count($arraySci));
+
 }
 
 // $file = DIR_JSON;
