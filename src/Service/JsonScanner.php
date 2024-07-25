@@ -9,9 +9,33 @@ require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'Utils
 require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'Entity' . DIRECTORY_SEPARATOR . 'Sci.php'); 
 require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php');
 
-$path = 'C:\Users\rvorlet\Documents\Git';
+$path = 'D:\Stockage\stock RNE formalité';
 $dir = scandir($path);
 print_r($dir);
+$arraySci = [];
+// for ($i = 2; $i<count($dir); $i++) {
+for ($i = 2; $i<4; $i++) {
+    $fileName = $dir[$i];
+    $file = $path . $fileName;
+    $data = file_get_contents($file);
+    $obj = json_decode($data);
+    if (!empty($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique))
+        {
+            if (strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"Société civile immobilière") || 
+            strcmp($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique,"6540"))
+            {
+                $sci = new Sci();
+                $sci->setIdSCI($obj[$i]->id);
+                $sci->setSiren($obj[$i]->formality->siren);
+                $sci->setPositionInJson($i);
+                $sci->setFileName($fileName);
+                array_push($arraySci, $sci);
+            } else echo "noway";
+    } else echo "another way ";
+    echo(" \n");
+    print_r(count($arraySci));
+}
+
 // $file = DIR_JSON;
 
 // $data = file_get_contents($file);
