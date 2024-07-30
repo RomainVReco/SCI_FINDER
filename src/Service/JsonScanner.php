@@ -70,6 +70,21 @@ for ($i = 2; $i<4; $i++) {
                 $sci = new Sci();
                 $sci->setIdSCI($obj[$j]->id);
                 $sci->setSiren($obj[$j]->formality->siren);
+
+                if (isset($obj[$i]->formality->content->natureCreation->dateCreation)) $sci->setDateCreation(new DateTime($obj[$i]->formality->content->natureCreation->dateCreation));
+                if (isset($obj[$i]->formality->content->natureCreation->etablieEnFrance)) $sci->setEtablieEnFrance($obj[$i]->formality->content->natureCreation->etablieEnFrance);
+                if (isset($obj[$i]->formality->content->natureCreation->salarieEnFrance)) $sci->setSalarieEnFrance($obj[$i]->formality->content->natureCreation->salarieEnFrance);
+                if (isset($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique)) $sci->setFormeJuridique($obj[$i]->formality->content->personneMorale->identite->entreprise->formeJuridique);
+                if (isset($obj[$i]->formality->content->personneMorale->identite->entreprise->denomination)) $sci->setDenomination($obj[$i]->formality->content->personneMorale->identite->entreprise->denomination);
+                if (isset($obj[$i]->formality->content->personneMorale->identite->entreprise->denomination)) $sci->setDenomination($obj[$i]->formality->content->personneMorale->identite->entreprise->denomination);
+                if (isset($obj[$i]->formality->content->personneMorale->identite->entreprise->dateImmat)) $sci->setDateImmat(new DateTime($obj[$i]->formality->content->personneMorale->identite->entreprise->dateImmat));
+                if (isset($obj[$i]->formality->content->personneMorale->identite->description->montantCapital)) $sci->setMontantCapital($obj[$i]->formality->content->personneMorale->identite->description->montantCapital);
+                if (isset($obj[$i]->formality->content->personneMorale->identite->description->deviseCapital)) $sci->setDeviseCapital($obj[$i]->formality->content->personneMorale->identite->description->deviseCapital);
+                
+                if (isset($obj[$i]->formality->content->personneMorale->identite->description->objet)) $sci->setDescription($obj[$i]->formality->content->personneMorale->identite->description->objet);
+                if (isset($obj[$i]->formality->content->personneMorale->etablissementPrincipal)) $sci->setDateEffetFermeture(new DateTime($obj[$i]->formality->content->personneMorale->etablissementPrincipal->descriptionEtablissement->dateEffetFermeture));
+                if (isset($obj[$i]->formality->content->personneMorale->identite->entreprise->codeApe)) $sci->setCodeApe($obj[$i]->formality->content->personneMorale->identite->entreprise->codeApe);
+                
                 $sci->setPositionInJson($j);
                 $sci->setFileName($fileName);
                 $setSci->add($sci);
