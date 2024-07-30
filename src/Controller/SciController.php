@@ -1,4 +1,5 @@
 <?php
+   
 
 namespace App\Controller;
 
@@ -13,6 +14,7 @@ use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Serializer\SerializerInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
+use DateTime;
 
 class SciController extends AbstractController
 {
@@ -24,32 +26,20 @@ class SciController extends AbstractController
     #[Route('/api/sci/script/', name:'scriptSci', methods:['GET'])]
     public function saveScriptSci(Request $request, SerializerInterface $serializer, EntityManagerInterface $em, UrlGeneratorInterface $urlGenerator): JsonResponse
     {
-    
+        set_time_limit(600);
         $path = 'D:\Stockage\stock RNE formalité\\';
         $dir = scandir($path);
-        print_r($dir);
-        $setSci = new \Ds\Set();
-        $arraySci = [];
-        $totalScan = 0;
-        $totalSci = 0;
 
-    // Mettre la condition  pour vérifier la forme juridique
-    // for ($i = 0; $i<count($obj); $i++) {
-        for ($i = 2; $i<4; $i++) {
+        for ($i = 2; $i<count($dir); $i++) 
+        {
             $fileName = $dir[$i];
             $file = $path . $fileName;
-            print_r($file);
             $data = file_get_contents($file);
             $obj = json_decode($data);
-            echo(" \n");
-            print_r("Nom fichier : " . $fileName);
-            echo(" \n");
-            print_r("Nombre objets du fichier : " . count($obj));
-            echo(" \n");
-            
-            for ($j = 0 ; $j<3; $j++) {
-                $totalScan++;
-            if (isset($obj[$j]->formality->content->natureCreation->formeJuridique))
+
+            for ($j = 0 ; $j<count($obj); $j++) 
+            {
+                if (isset($obj[$j]->formality->content->natureCreation->formeJuridique))
                 {
                     $formeJuridique = $obj[$j]->formality->content->natureCreation->formeJuridique;
                     if ($formeJuridique === "6540" || $formeJuridique === "Société civile immobilière")
@@ -72,15 +62,12 @@ class SciController extends AbstractController
                         
                         $sci->setPositionInJson($j);
                         $sci->setFileName($fileName);
-                        $setSci->add($sci);
-                        array_push($arraySci, $sci);
-                        $totalSci++;
-        
                     }
-            } 
-            if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique)) {
-                $formeJuridique = $obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique;
-                if (in_array($formeJuridique,["Société civile immobilière","6540"], true)) {
+                } else if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique))
+                {
+                    $formeJuridique = $obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique;
+                    if (in_array($formeJuridique,["Société civile immobilière","6540"], true)) 
+                    {
                         $sci = new Sci();
                         $sci->setIdSCI($obj[$j]->id);
                         $sci->setSiren($obj[$j]->formality->siren);
@@ -100,23 +87,26 @@ class SciController extends AbstractController
                         
                         $sci->setPositionInJson($j);
                         $sci->setFileName($fileName);
-                        $setSci->add($sci);
-                        array_push($arraySci, $sci);
-                        $totalSci++;
+
                     }
+
+                }
+                if (isset($sci)) {
+                    $em->persist($sci);
+                    unset($sci);
+                }
+            
             }
-            $em->persist($sci);
         }
-    }
         $unitOfWorks=$em->getUnitOfWork();
         $insertions = $unitOfWorks->getScheduledEntityInsertions();
         $em->flush();
+
         $data = [
             'success' => 'ok', 
             'insertions' => count($insertions)
             ];
         return new JsonResponse($data, Response::HTTP_CREATED, [], false);
-
     } 
 
     #[Route('/api/sci', name:'AllSCI', methods:['GET'])]
