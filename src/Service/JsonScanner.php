@@ -1,6 +1,7 @@
 <?php
 
 use App\Entity\Sci;
+use Ds\Set;
 
 use Symfony\Component\HttpFoundation\Request;
 
@@ -9,9 +10,17 @@ require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'Utils
 require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'Entity' . DIRECTORY_SEPARATOR . 'Sci.php'); 
 require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php');
 
+
+function extractSci($obj):Sci {
+    $sci = new Sci();
+    return $sci;
+}
+
+
 $path = 'D:\Stockage\stock RNE formalité\\';
 $dir = scandir($path);
 print_r($dir);
+$setSci = new \Ds\Set();
 $arraySci = [];
 $totalScan = 0;
 $totalSci = 0;
@@ -40,6 +49,7 @@ for ($i = 2; $i<4; $i++) {
                 $sci->setSiren($obj[$j]->formality->siren);
                 $sci->setPositionInJson($j);
                 $sci->setFileName($fileName);
+                $setSci->add($sci);
                 array_push($arraySci, $sci);
                 $totalSci++;
             }
@@ -53,6 +63,7 @@ for ($i = 2; $i<4; $i++) {
                 $sci->setSiren($obj[$j]->formality->siren);
                 $sci->setPositionInJson($j);
                 $sci->setFileName($fileName);
+                $setSci->add($sci);
                 array_push($arraySci, $sci);
                 $totalSci++;
             }
@@ -63,7 +74,9 @@ print_r("Total scan : " . $totalScan);
 echo(" \n");
 print_r("Total SCI : " . $totalSci);
 echo(" \n");
-// print_r(" Total array SCI : " . count($arraySci));
+print_r(" Total array SCI : " . count($arraySci));
+echo(" \n");
+print_r(" Total set SCI : " . $setSci->count());
 
 }
 
