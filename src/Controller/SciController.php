@@ -25,7 +25,7 @@ class SciController extends AbstractController
     public function saveScriptSci(string $password, Request $request, SerializerInterface $serializer, EntityManagerInterface $em, UrlGeneratorInterface $urlGenerator): JsonResponse
     {
     
-    $file = DIR_JSON_PART;
+    $file = DIR_JSON;
     $data = file_get_contents($file);
     $obj = json_decode($data);
 
