@@ -15,6 +15,7 @@ use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Serializer\SerializerInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use DateTime;
+use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
 
 class SciController extends AbstractController
 {
@@ -163,6 +164,15 @@ class SciController extends AbstractController
             return new JsonResponse(null, Response::HTTP_NO_CONTENT);
         }
         return new JsonResponse(null, Response::HTTP_NOT_FOUND);
+    }
+
+    #[Route('api/sci/{id}', name:'updateSci', methods:['PUT'])]
+    public function updateSci(Request $request, Sci $currentSci, EntityManagerInterface $em) {
+        $updatedSci = $this->serializer->deserialize($request->getContent(), Sci::class, 'json', [AbstractNormalizer::OBJECT_TO_POPULATE => $currentSci]);
+        $em->persist($updatedSci);
+        $em->flush();
+        return new JsonResponse(null, JsonResponse::HTTP_NO_CONTENT);
+
     }
 
    
