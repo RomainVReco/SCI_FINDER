@@ -29,6 +29,18 @@ class SciRepository extends ServiceEntityRepository
         return $query->getResult();
     }
 
+    public function findByPartialName(string $name):array 
+    {
+        $em = $this->getEntityManager();
+        $queryBuilder = $em->createQueryBuilder();
+        $queryBuilder->select('*')
+            ->from('sci', 'sci')
+            ->where('sci.denomination LIKE :name')
+            ->setParameter('name', $name . '%');
+        $query = $queryBuilder->getQuery();
+        return $query->getResult();
+    }
+
 //    /**
 //     * @return Sci[] Returns an array of Sci objects
 //     */

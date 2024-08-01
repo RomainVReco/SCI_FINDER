@@ -1,6 +1,7 @@
 <?php
 
 use App\Entity\Sci;
+use Ds\Set;
 
 use Symfony\Component\HttpFoundation\Request;
 
@@ -9,63 +10,99 @@ require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'Utils
 require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'Entity' . DIRECTORY_SEPARATOR . 'Sci.php'); 
 require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php');
 
+
 $path = 'D:\Stockage\stock RNE formalité\\';
 $dir = scandir($path);
 print_r($dir);
+$setSci = new \Ds\Set();
 $arraySci = [];
 $totalScan = 0;
 $totalSci = 0;
 // for ($i = 2; $i<count($dir); $i++) {
-for ($i = 2; $i<4; $i++) {
-    $fileName = $dir[$i];
-    $file = $path . $fileName;
-    print_r($file);
-    $data = file_get_contents($file);
-    $obj = json_decode($data);
-    echo(" \n");
-    print_r("Nom fichier : " . $fileName);
-    echo(" \n");
-    print_r("Nombre objets du fichier : " . count($obj));
-    echo(" \n");
-    for ($j = 0 ; $j<count($obj); $j++) {
-        $totalScan++;
-    if (isset($obj[$j]->formality->content->natureCreation->formeJuridique))
-        {
-            $formeJuridique = $obj[$j]->formality->content->natureCreation->formeJuridique;
-            if (strcmp($formeJuridique,"6540") == 0 || 
-            strcmp($formeJuridique,"Société civile immobilière") == 0)
-            {
-                $sci = new Sci();
-                $sci->setIdSCI($obj[$j]->id);
-                $sci->setSiren($obj[$j]->formality->siren);
-                $sci->setPositionInJson($j);
-                $sci->setFileName($fileName);
-                array_push($arraySci, $sci);
-                $totalSci++;
-            }
-    } 
-    if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique)) {
-        $formeJuridique = $obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique;
-        if (strcmp($formeJuridique,"Société civile immobilière") == 0 || 
-            strcmp($formeJuridique,"6540") == 0) {
-                $sci = new Sci();
-                $sci->setIdSCI($obj[$j]->id);
-                $sci->setSiren($obj[$j]->formality->siren);
-                $sci->setPositionInJson($j);
-                $sci->setFileName($fileName);
-                array_push($arraySci, $sci);
-                $totalSci++;
-            }
-    }
-}
-echo(" \n");
-print_r("Total scan : " . $totalScan);
-echo(" \n");
-print_r("Total SCI : " . $totalSci);
-echo(" \n");
-// print_r(" Total array SCI : " . count($arraySci));
+// for ($i = 2; $i<4; $i++) {
+//     $fileName = $dir[$i];
+//     $file = $path . $fileName;
+//     print_r($file);
+//     $data = file_get_contents($file);
+//     $obj = json_decode($data);
+//     echo(" \n");
+//     print_r("Nom fichier : " . $fileName);
+//     echo(" \n");
+//     print_r("Nombre objets du fichier : " . count($obj));
+//     echo(" \n");
+    
+//     for ($j = 0 ; $j<count($obj); $j++) {
+//         $totalScan++;
+//     if (isset($obj[$j]->formality->content->natureCreation->formeJuridique))
+//         {
+//             $formeJuridique = $obj[$j]->formality->content->natureCreation->formeJuridique;
+//             if ($formeJuridique === "6540" || $formeJuridique === "Société civile immobilière")
+//             {
+//                 $sci = new Sci();
+//                 $sci->setIdSCI($obj[$j]->id);
+//                 $sci->setSiren($obj[$j]->formality->siren);
+//                 if (isset($obj[$j]->formality->content->natureCreation->dateCreation)) $sci->setDateCreation(new DateTime($obj[$j]->formality->content->natureCreation->dateCreation));
+//                 if (isset($obj[$j]->formality->content->natureCreation->etablieEnFrance)) $sci->setEtablieEnFrance($obj[$j]->formality->content->natureCreation->etablieEnFrance);
+//                 if (isset($obj[$j]->formality->content->natureCreation->salarieEnFrance)) $sci->setSalarieEnFrance($obj[$j]->formality->content->natureCreation->salarieEnFrance);
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique)) $sci->setFormeJuridique($obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique);
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->denomination)) $sci->setDenomination($obj[$j]->formality->content->personneMorale->identite->entreprise->denomination);
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->dateImmat)) $sci->setDateImmat(new DateTime($obj[$j]->formality->content->personneMorale->identite->entreprise->dateImmat));
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->description->montantCapital)) $sci->setMontantCapital($obj[$j]->formality->content->personneMorale->identite->description->montantCapital);
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->description->deviseCapital)) $sci->setDeviseCapital($obj[$j]->formality->content->personneMorale->identite->description->deviseCapital);
+                
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->description->objet)) $sci->setDescription($obj[$j]->formality->content->personneMorale->identite->description->objet);
+//                 if (isset($obj[$j]->formality->content->personneMorale->etablissementPrincipal->descriptionEtablissement->dateEffetFermeture)) $sci->setDateEffetFermeture(new DateTime($obj[$j]->formality->content->personneMorale->etablissementPrincipal->descriptionEtablissement->dateEffetFermeture));
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->codeApe)) $sci->setCodeApe($obj[$j]->formality->content->personneMorale->identite->entreprise->codeApe);
+                
+//                 $sci->setPositionInJson($j);
+//                 $sci->setFileName($fileName);
+//                 $setSci->add($sci);
+//                 array_push($arraySci, $sci);
+//                 $totalSci++;
 
-}
+//             }
+//     } 
+//     if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique)) {
+//         $formeJuridique = $obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique;
+//         if (in_array($formeJuridique,["Société civile immobilière","6540"], true)) {
+//                 $sci = new Sci();
+//                 $sci->setIdSCI($obj[$j]->id);
+//                 $sci->setSiren($obj[$j]->formality->siren);
+
+//                 if (isset($obj[$j]->formality->content->natureCreation->dateCreation)) $sci->setDateCreation(new DateTime($obj[$j]->formality->content->natureCreation->dateCreation));
+//                 if (isset($obj[$j]->formality->content->natureCreation->etablieEnFrance)) $sci->setEtablieEnFrance($obj[$j]->formality->content->natureCreation->etablieEnFrance);
+//                 if (isset($obj[$j]->formality->content->natureCreation->salarieEnFrance)) $sci->setSalarieEnFrance($obj[$j]->formality->content->natureCreation->salarieEnFrance);
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique)) $sci->setFormeJuridique($obj[$j]->formality->content->personneMorale->identite->entreprise->formeJuridique);
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->denomination)) $sci->setDenomination($obj[$j]->formality->content->personneMorale->identite->entreprise->denomination);
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->dateImmat)) $sci->setDateImmat(new DateTime($obj[$j]->formality->content->personneMorale->identite->entreprise->dateImmat));
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->description->montantCapital)) $sci->setMontantCapital($obj[$j]->formality->content->personneMorale->identite->description->montantCapital);
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->description->deviseCapital)) $sci->setDeviseCapital($obj[$j]->formality->content->personneMorale->identite->description->deviseCapital);
+                
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->description->objet)) $sci->setDescription($obj[$j]->formality->content->personneMorale->identite->description->objet);
+//                 if (isset($obj[$j]->formality->content->personneMorale->etablissementPrincipal->descriptionEtablissement->dateEffetFermeture)) $sci->setDateEffetFermeture(new DateTime($obj[$j]->formality->content->personneMorale->etablissementPrincipal->descriptionEtablissement->dateEffetFermeture));
+//                 if (isset($obj[$j]->formality->content->personneMorale->identite->entreprise->codeApe)) $sci->setCodeApe($obj[$j]->formality->content->personneMorale->identite->entreprise->codeApe);
+                
+//                 $sci->setPositionInJson($j);
+//                 $sci->setFileName($fileName);
+//                 $setSci->add($sci);
+//                 array_push($arraySci, $sci);
+//                 $totalSci++;
+//             }
+//     }
+//     unset($sci);
+// }
+// echo(" \n");
+// print_r("Total scan : " . $totalScan);
+// echo(" \n");
+// print_r("Total SCI : " . $totalSci);
+// echo(" \n");
+// print_r(" Total array SCI : " . count($arraySci));
+// echo(" \n");
+// print_r(" Total set SCI : " . $setSci->count());
+// echo(" \n");
+// print_r($setSci);
+
+// }
 
 // $file = DIR_JSON;
 
