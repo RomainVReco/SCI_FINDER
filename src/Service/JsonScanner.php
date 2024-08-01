@@ -13,7 +13,7 @@ require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' .
 
 $path = 'D:\Stockage\stock RNE formalité\\';
 $dir = scandir($path);
-print_r($dir);
+// print_r($dir);
 $setSci = new \Ds\Set();
 $arraySci = [];
 $totalScan = 0;
