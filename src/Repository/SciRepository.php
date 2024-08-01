@@ -18,28 +18,22 @@ class SciRepository extends ServiceEntityRepository
 
     public function findByPartialId(string $partialSciId):array 
     {
-        $em = $this->getEntityManager();
-        $queryBuilder = $em->createQueryBuilder();
-        $queryBuilder->select('*')
-            ->from('sci', 'sci')
-            ->where('sci.id_sci LIKE :partialId')
-            ->setParameter('partialId', $partialSciId.'%');
-
-        $query = $queryBuilder->getQuery();
-        return $query->getResult();
+        $queryBuilder = $this->createQueryBuilder('sci');
+        
+        $queryBuilder->where('sci.idSci LIKE :partialId')
+                     ->setParameter('partialId', $partialSciId . '%');
+        
+        return $queryBuilder->getQuery()->getResult();
     }
 
-    public function findByPartialName(string $name):array 
+    public function findByPartialName(string $denomination):array 
     {
-        $em = $this->getEntityManager();
-        print_r($name);
-        $queryBuilder = $em->createQueryBuilder();
-        $queryBuilder->select('*')
-            ->from('sci', 'sci')
-            ->where('sci.denomination LIKE :name')
-            ->setParameter('name', $name . '%');
-        $query = $queryBuilder->getQuery();
-        return $query->getResult();
+        $queryBuilder = $this->createQueryBuilder('sci');
+        
+        $queryBuilder->where('sci.denomination LIKE :denomination')
+                    ->setParameter('denomination', $denomination . '%');
+        
+        return $queryBuilder->getQuery()->getResult();
     }
 
 //    /**
