@@ -129,7 +129,7 @@ class SciController extends AbstractController
         return new JsonResponse(null, Response::HTTP_NOT_FOUND);
     }
 
-    #[Route('/api/sci/partial/{id}', name:'partialSCI', methods:['GET'])]
+    #[Route('/api/sci/partialId/{id}', name:'partialIdSci', methods:['GET'])]
     public function getSciFromPartialId(int $id): JsonResponse
     {
         $sci = $this->sciRepo->findByPartialId($id);
@@ -138,6 +138,12 @@ class SciController extends AbstractController
             return new JsonResponse($jsonSCI, Response::HTTP_OK, [], true);
         }
         return new JsonResponse(null, Response::HTTP_NOT_FOUND);
+    }
+
+    #[Route('/api/sci/partialName/{denomination}', name:'partialNameSci')]
+    public function getSciFromPartialName(string $name): JsonResponse
+    {
+        
     }
 
     #[Route('/api/sci', name:'createSCI', methods:['POST'])]
