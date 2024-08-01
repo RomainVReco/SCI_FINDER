@@ -32,6 +32,7 @@ class SciRepository extends ServiceEntityRepository
     public function findByPartialName(string $name):array 
     {
         $em = $this->getEntityManager();
+        print_r($name);
         $queryBuilder = $em->createQueryBuilder();
         $queryBuilder->select('*')
             ->from('sci', 'sci')

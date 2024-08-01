@@ -130,7 +130,7 @@ class SciController extends AbstractController
     }
 
     #[Route('/api/sci/partialId/{id}', name:'partialIdSci', methods:['GET'])]
-    public function getSciFromPartialId(int $id): JsonResponse
+    public function getSciFromPartialId(string $id): JsonResponse
     {
         $sci = $this->sciRepo->findByPartialId($id);
         if ($sci) {
@@ -143,12 +143,13 @@ class SciController extends AbstractController
     #[Route('/api/sci/partialName/{denomination}', name:'partialNameSci')]
     public function getSciFromPartialName(string $name): JsonResponse
     {
-        $sci = $this->sciRepo->findByPartialName($name);
-        if ($sci) {
-            $jsonSCI = $this->serializer->serialize($sci, 'json');
-            return new JsonResponse($jsonSCI, Response::HTTP_OK, [], true);
-        }
-        return new JsonResponse(null, Response::HTTP_NOT_FOUND);
+        // $sci = $this->sciRepo->findByPartialName($name);
+        // if ($sci) {
+        //     $jsonSCI = $this->serializer->serialize($sci, 'json');
+        //     return new JsonResponse($jsonSCI, Response::HTTP_OK, [], true);
+        // }
+        // return new JsonResponse(null, Response::HTTP_NOT_FOUND);
+        return new JsonResponse(['name' => $name]);
     }
 
     #[Route('/api/sci', name:'createSCI', methods:['POST'])]
