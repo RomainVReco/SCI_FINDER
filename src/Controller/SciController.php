@@ -23,7 +23,7 @@ class SciController extends AbstractController
     public function __construct(private SciRepository $sciRepo, private SerializerInterface $serializer) 
     {
     }
-
+  
     #[Route('/api/sci/script/', name:'scriptSci', methods:['GET'])]
     public function saveScriptSci(Request $request, SerializerInterface $serializer, EntityManagerInterface $em, UrlGeneratorInterface $urlGenerator): JsonResponse
     {
